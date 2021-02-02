@@ -50,13 +50,13 @@ const Footer = () => {
                         <SocialLogo to='/' onClick={toggleHome}>VDimitrov</SocialLogo>
                         <WebsiteRights>Copyrights Info © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
                         <SocialIcons>
-                            <SocialIconLink href='/' target='_blank' aria-label='Instagram'>
+                            <SocialIconLink href='https://www.instagram.com/dev_vlady/' target='_blank' aria-label='Instagram'>
                                 <FaInstagram/>
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label='Linkedin'>
+                            <SocialIconLink href='https://www.linkedin.com/in/vladimirsdimitrov/' target='_blank' aria-label='Linkedin'>
                                 <FaLinkedin/>
                             </SocialIconLink>
-                            <SocialIconLink href='/' target='_blank' aria-label='Github'>
+                            <SocialIconLink href='https://github.com/DevVlady' target='_blank' aria-label='Github'>
                                 <FaGithub/>
                             </SocialIconLink>
                         </SocialIcons>
