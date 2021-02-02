@@ -2,17 +2,17 @@ export const homeObjectOne = {
     id: 'about',
     lightBg: true,
     lightText: true,
-    lightTextDesc: true,
-    topLine: 'Project One',
+    lightTextDesc: false,
+    topLine: 'About Me',
     headline: 'Web Develppers Hangout',
     description: 'Web Develppers Hangout',
     buttonLabel: 'Launch',
-    imgStart: false,
+    imgStart: true,
     img: require('../../images/devHangout.jpg'),
     alt: 'Dev Hangout',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 }
 
 export const homeObjectTwo = {
@@ -29,5 +29,5 @@ export const homeObjectTwo = {
     alt: 'Dev Hangout',
     dark: true,
     primary: true,
-    darkText: false
+    darkText: true
 }
