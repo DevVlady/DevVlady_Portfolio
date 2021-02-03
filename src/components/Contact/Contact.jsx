@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+
 
 const Contact = () => {
     return (
@@ -14,6 +15,7 @@ const Contact = () => {
                             <FormInput type='email' required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
                             <FormInput type='message' required />
+                            <FormButton type='submit'>Submit</FormButton>
                         </Form>
                     </FormContent>
                 </FormWrap>
