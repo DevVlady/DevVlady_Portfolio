@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link } from 'react-router-dom';
+// import { Link } from 'react-router-dom';
 
 export const Container = styled.div `
     min-height: 692px;
@@ -25,6 +25,17 @@ export const FormWrap = styled.div `
 
     @media screen and (max-width: 400px) {
         height: 80%;
+    }
+`;
+
+export const FormContent = styled.div `
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 480px) {
+        padding: 10px
     }
 `;
 
