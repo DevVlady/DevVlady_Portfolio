@@ -3,9 +3,10 @@ import Sidebar from '../components/Sidebar/Sidebar';
 import Navbar from '../components/Navbar/Navbar';
 import HeroSection from '../components/HeroSection/HeroSection';
 import InfoSection from '../components/InfoSection/Info';
-import { homeObjectOne, homeObjectTwo } from '../components/InfoSection/Data';
+import { homeObjectOne } from '../components/InfoSection/Data';
 import Projects from '../components/Projects/Projects';
 import Footer from '../components/Footer/Footer';
+import Contact from '../components/Contact/Contact';
 
 const Home = () => {
     const [isOpen, setIsOpen] = useState(false)
@@ -21,7 +22,7 @@ const Home = () => {
             <HeroSection/>
             <InfoSection {...homeObjectOne}/>
             <Projects/>
-            <InfoSection {...homeObjectTwo}/>
+            <Contact />
             <Footer/>
         </>
     );

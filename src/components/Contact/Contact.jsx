@@ -1,5 +1,5 @@
 import React from 'react';
-
+import { Container, FormWrap, FormContent, Form, FormH1, FormLabel, FormInput, FormButton } from './ContactElements';
 
 const Contact = () => {
     return (
