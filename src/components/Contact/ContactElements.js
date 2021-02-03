@@ -39,7 +39,7 @@ export const FormContent = styled.div `
     }
 `;
 
-export const Form = styled.div `
+export const Form = styled.form `
     background: #010101;
     max-width: 400px;
     height: auto;
@@ -50,4 +50,14 @@ export const Form = styled.div `
     padding: 80px 32px;
     border-radius: 4px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9)
+
+    @media screen and (max-width: 400px) {
+        padding: 32px 32px;
+    }
+`;
+
+export const FormLabel = styled.label `
+    margin-bottom: 8px;
+    font-size: 14px;
+    color: #fff;
 `;
