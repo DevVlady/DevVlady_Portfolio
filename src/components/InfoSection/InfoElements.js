@@ -52,17 +52,17 @@ export const TextWrapper = styled.div `
 
 export const TopLine = styled.p `
     color: #01bf71;
-    font-size: 16px;
+    font-size: 40px;
     line-height: 16px;
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 16px;
+    margin-bottom: 40px;
 `;
 
 export const Heading = styled.h1 `
     margin-bottom: 24px;
-    font-size: 48px;
+    font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#010606' : '#f7f8fa')};
@@ -91,9 +91,10 @@ export const ImgWrap = styled.div `
 `;
 
 export const Img = styled.img`
-    height: 250px;
-    width: 250px;
-    // width: 100%;
+    height: 600px;
+    width: 400px;
+    border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;
+
 `;
