@@ -1,10 +1,10 @@
 import React from 'react';
-import { Container, FormWrap, FormContent, Form, FormH1, FormLabel, FormInput, FormButton } from './ContactElements';
+import { ContactContainer, FormWrap, FormContent, Form, FormH1, FormLabel, FormInput, FormInputMsg, FormButton } from './ContactElements';
 
 const Contact = () => {
     return (
         <>
-            <Container>
+            <ContactContainer id='contact'>
                 <FormWrap>
                     <FormContent>
                         <Form action="">
@@ -14,12 +14,12 @@ const Contact = () => {
                             <FormLabel htmlFor='for'>Email</FormLabel>
                             <FormInput type='email' required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
-                            <FormInput type='message' required />
+                            <FormInputMsg type='text' required />
                             <FormButton type='submit'>Submit</FormButton>
                         </Form>
                     </FormContent>
                 </FormWrap>
-            </Container>
+            </ContactContainer>
         </>
     )
 }

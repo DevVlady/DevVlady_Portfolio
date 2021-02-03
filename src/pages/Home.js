@@ -22,7 +22,7 @@ const Home = () => {
             <HeroSection/>
             <InfoSection {...homeObjectOne}/>
             <Projects/>
-            <Contact />
+            <Contact/>
             <Footer/>
         </>
     );

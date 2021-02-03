@@ -1,20 +1,21 @@
 import styled from 'styled-components';
 // import { Link } from 'react-router-dom';
 
-export const Container = styled.div `
-    min-height: 692px;
-    position: fixed;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    z-index: 0;
-    overflow: hidden;
-    background: linear-gradient(
-        108deg,
-        rgba(1, 147, 86, 1) 0%,
-        rgba(10, 201, 122, 1) 100%
-    );
+export const ContactContainer = styled.div `
+    height: 1160px;
+    // display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: gray;
+
+    @media screen and (max-width: 768px) {
+        height: 1500px;
+    }
+
+    @media screen and (max-width: 480px) {
+        height: 1300px;
+    }
 `;
 
 export const FormWrap = styled.div `
@@ -40,7 +41,7 @@ export const FormContent = styled.div `
 `;
 
 export const Form = styled.form `
-    background: #010101;
+    background: black;
     max-width: 400px;
     height: auto;
     width: 100%;
@@ -56,6 +57,14 @@ export const Form = styled.form `
     }
 `;
 
+export const FormH1 = styled.h1 `
+    margin-bottom: 40px;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+`;
+
 export const FormLabel = styled.label `
     margin-bottom: 8px;
     font-size: 14px;
@@ -67,6 +76,15 @@ export const FormInput = styled.input `
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
+`;
+export const FormInputMsg = styled.input `
+    padding: 56px 16px;
+    margin-bottom: 32px;
+    border: none;
+    border-radius: 4px;
+    // word-wrap: break-word;
+    // word-break: break-all;
+    overflow-wrap: wrap;
 `;
 
 export const FormButton = styled.button `

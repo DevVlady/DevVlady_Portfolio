@@ -30,6 +30,26 @@ const Projects = () => {
                     <ProjectH2>Project info</ProjectH2>
                     <ProjectP>Description</ProjectP>
                 </ProjectCard>
+                <ProjectCard>
+                    <ProjectIcon src={Icon4}/>
+                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectP>Description</ProjectP>
+                </ProjectCard>
+                <ProjectCard>
+                    <ProjectIcon src={Icon4}/>
+                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectP>Description</ProjectP>
+                </ProjectCard>
+                <ProjectCard>
+                    <ProjectIcon src={Icon4}/>
+                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectP>Description</ProjectP>
+                </ProjectCard>
+                <ProjectCard>
+                    <ProjectIcon src={Icon4}/>
+                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectP>Description</ProjectP>
+                </ProjectCard>
 
             </ProjectWrapper>
         </ProjectContainer>
