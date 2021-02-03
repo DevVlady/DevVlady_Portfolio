@@ -48,7 +48,7 @@ const Footer = () => {
                 <SocialMedia>
                     <SocialMediaWrap>
                         <SocialLogo to='/' onClick={toggleHome}>VDimitrov</SocialLogo>
-                        <WebsiteRights>Copyrights Info © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
+                        <WebsiteRights>Copyright © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='https://www.instagram.com/dev_vlady/' target='_blank' aria-label='Instagram'>
                                 <FaInstagram/>

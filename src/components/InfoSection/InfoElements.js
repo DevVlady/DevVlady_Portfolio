@@ -57,7 +57,7 @@ export const TopLine = styled.p `
     font-weight: 700;
     letter-spacing: 1.4px;
     text-transform: uppercase;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 `;
 
 export const Heading = styled.h1 `
@@ -91,8 +91,8 @@ export const ImgWrap = styled.div `
 `;
 
 export const Img = styled.img`
-    height: 600px;
-    width: 400px;
+    height: 650px;
+    width: 450px;
     border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;

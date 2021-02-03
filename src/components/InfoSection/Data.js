@@ -4,7 +4,7 @@ export const homeObjectOne = {
     lightText: true,
     lightTextDesc: false,
     topLine: 'My Story...',
-    headline: "Hello there, my namer is Vladimir but i go by Vlad for short. I was born in Bulgaria before being",
+    headline: "Hello there & nice to e-meet you. My name is Vladimir but you can call me Vlad. ",
     // description: '',
     buttonLabel: 'View My Work',
     imgStart: true,
