@@ -17,3 +17,14 @@ export const Container = styled.div `
     );
 `;
 
+export const FormWrap = styled.div `
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+    @media screen and (max-width: 400px) {
+        height: 80%;
+    }
+`;
+
