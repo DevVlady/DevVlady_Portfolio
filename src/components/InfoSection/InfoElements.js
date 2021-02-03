@@ -90,9 +90,10 @@ export const ImgWrap = styled.div `
     height: 100%;
 `;
 
-export const Img = styled.img `
+export const Img = styled.img`
     height: 250px;
     width: 250px;
+    // width: 100%;
     margin: 0 0 10px 0;
     padding-right: 0;
 `;
