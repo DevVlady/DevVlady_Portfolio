@@ -37,8 +37,12 @@ export const NavLogo = styled(LinkR)`
     display: flex;
     align-items: center;
     margin-left: -15px;
-    font-weight: bold;
+    font-weight: 900;
     text-decoration: none;
+
+    &:hover {
+        color: #0032FF;
+    }
 `;
 
 export const MobileIcon = styled.div`
@@ -80,6 +84,8 @@ export const NavLinks = styled(LinkS)`
     padding: 0 1rem;
     height: 100%;
     cursor: pointer;
+    font-weight: 900;
+    text-transform: uppercase;
 
     &.active {
         border-bottom: 5px solid #01bf71;
