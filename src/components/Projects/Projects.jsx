@@ -1,9 +1,9 @@
 import React, {useState} from 'react';
 import Icon1 from '../../images/Progressive Budget.png';
-import Icon2 from '../../images/Screen Shot 2021-02-04 at 11.15.51 AM.png';
+import Icon2 from '../../images/WorkPlanner.png';
 import Icon3 from '../../images/Progressive Budget.png';
 import Icon4 from '../../images/Progressive Budget.png';
-import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, ProjectP, BtnWrap, Button } from './ProjectElements';
+import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button } from './ProjectElements';
 
 
 const Projects = () => {
@@ -19,8 +19,7 @@ const Projects = () => {
             <ProjectWrapper>
                 <ProjectCard>
                     <ProjectIcon src={Icon1}/>
-                    <ProjectH2>Budget App</ProjectH2>
-                    {/* <ProjectP>Description</ProjectP> */}
+                    <ProjectH2>Budget Tracker</ProjectH2>
                     <BtnWrap>
                         <Button
                             onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
@@ -36,28 +35,84 @@ const Projects = () => {
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon2}/>
-                    <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <ProjectH2>Work Planner</ProjectH2>
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Day_Planner'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
+                            // offset={-80}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://devvlady.github.io/Day_Planner/'}
+                        >Deploy</Button>
+                    </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon3}/>
                     <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
+                            // offset={-80}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                        >Deploy</Button>
+                    </BtnWrap>
+
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon4}/>
                     <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
+                            // offset={-80}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                        >Deploy</Button>
+                    </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon4}/>
                     <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
+                            // offset={-80}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                        >Deploy</Button>
+                    </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon4}/>
                     <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
+                            // offset={-80}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                        >Deploy</Button>
+                    </BtnWrap>
                 </ProjectCard>
             </ProjectWrapper>
         </ProjectContainer>

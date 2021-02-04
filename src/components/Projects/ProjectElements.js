@@ -33,10 +33,10 @@ export const ProjectH2 = styled.h2 `
     margin-bottom: 10px;
 `;
 
-export const ProjectP = styled.p `
-    font-size: 1rem;
-    text-align: center;
-`;
+// export const ProjectP = styled.p `
+//     font-size: 1rem;
+//     text-align: center;
+// `;
 
 export const ProjectWrapper = styled.div `
     max-width: 1000px;
