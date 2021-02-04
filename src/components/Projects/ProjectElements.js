@@ -88,12 +88,34 @@ export const BtnWrap = styled.div `
 `;
 
 export const Button = styled(Link) `
-    outline: 1px solid;
-    border-radius: 30%;
+    // border: 1px solid;
+    // border-radius: 10px;
+    // cursor: pointer;
+    // display: flex;
+    // justify-content: center;
+    // align-items: center;
+    // transition: all 0.2s ease-in-out;
+    // margin: 5px;
+    // padding: 2px;
+    // background: green
+
+    border-radius: 50px;
+    background: ${({primary}) => (primary ? '#01bf71' : '#010606')};
+    white-space: nowrap;
+    padding: ${({big}) => (big ? '5px 10px' : '5px 15px')};
+    color: ${({dark}) => (dark ? '#010606' : '#fff')};
+    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    outline: none;
+    border: none;
     cursor: pointer;
     display: flex;
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
-    margin: 5px
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: ${({primary}) => (primary ? 'black' : '#01BF71')};
+        color: ${({dark}) => (dark ? '#fff' : '#010606')};
+    };
 `;

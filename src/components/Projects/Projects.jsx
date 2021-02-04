@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import Icon1 from '../../images/Progressive Budget.png';
 import Icon2 from '../../images/Progressive Budget.png';
 import Icon3 from '../../images/Progressive Budget.png';
@@ -7,6 +7,12 @@ import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, 
 
 
 const Projects = () => {
+    const [hover, setHover] = useState(false)
+
+    const onHover = () => {
+        setHover(!hover)
+    }
+
     return (
         <ProjectContainer id='portfolio'>
             <ProjectH1>My Portfolio</ProjectH1>
@@ -18,6 +24,13 @@ const Projects = () => {
                     <BtnWrap>
                         <Button
                             onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            primary='true'
+                            dark='true'
+                            spy={true}
+                            // exact='true'
+                            // offset={-80}
                         >Github</Button>
                         <Button
                             onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
