@@ -95,4 +95,10 @@ export const FormButton = styled.button `
     color: #fff;
     font-size: 20px;
     cursor: pointer;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: white;
+        color: black;
+    };
 `;
