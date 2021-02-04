@@ -1,7 +1,7 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 // import Picture from '../../images/headshot.jpg'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroImgBg, HeroImg, HeroBtnWrapper, ArrowForward, ArrowRight } from './HeroElements'
+import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroImgBg, HeroImg, HeroBtnWrapper, ArrowForward, ArrowDown } from './HeroElements'
 import {Button} from '../ButtonElements'
 
 const HeroSection = () => {
@@ -36,7 +36,7 @@ const HeroSection = () => {
                         exact='true'
                         offset={-80}
                     >
-                        About Me {hover ? <ArrowForward/> : <ArrowRight/>}
+                        About Me {hover ? <ArrowForward/> : <ArrowDown/>}
                     </Button>
                 </HeroBtnWrapper>
             </HeroContent>

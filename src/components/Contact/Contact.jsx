@@ -15,7 +15,7 @@ const Contact = () => {
                             <FormInput type='email' required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
                             <FormInputMsg type='text' required />
-                            <FormButton type='submit'>Submit</FormButton>
+                            <FormButton type='submit'>Send Message</FormButton>
                         </Form>
                     </FormContent>
                 </FormWrap>
