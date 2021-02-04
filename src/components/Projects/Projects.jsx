@@ -6,6 +6,7 @@ import Icon4 from '../../images/devHangout.jpg';
 import Icon5 from '../../images/Charging Forward.png';
 import Icon6 from '../../images/Employee_Directory.png';
 import Icon7 from '../../images/Weather.png';
+import Icon8 from '../../images/Password_Gen.png';
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button } from './ProjectElements';
 
 
@@ -134,18 +135,18 @@ const Projects = () => {
                     </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
-                    <ProjectIcon src={Icon6}/>
-                    <ProjectH2>Project inf</ProjectH2>
+                    <ProjectIcon src={Icon8}/>
+                    <ProjectH2>Password Generator</ProjectH2>
                     <BtnWrap>
                         <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onClick={event => window.location.href='https://github.com/DevVlady/PasswordGenerator'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             spy={true}
                             // offset={-80}
                         >Github</Button>
                         <Button
-                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                            onClick={event => window.location.href='https://devvlady.github.io/PasswordGenerator/'}
                         >Deploy</Button>
                     </BtnWrap>
                 </ProjectCard>
