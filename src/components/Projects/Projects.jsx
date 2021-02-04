@@ -5,6 +5,7 @@ import Icon3 from '../../images/Fitness_Tracker2.png';
 import Icon4 from '../../images/devHangout.jpg';
 import Icon5 from '../../images/Charging Forward.png';
 import Icon6 from '../../images/Employee_Directory.png';
+import Icon7 from '../../images/Weather.png';
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button } from './ProjectElements';
 
 
@@ -117,24 +118,24 @@ const Projects = () => {
                     </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
-                    <ProjectIcon src={Icon6}/>
-                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectIcon src={Icon7}/>
+                    <ProjectH2>Weather Dashboard</ProjectH2>
                     <BtnWrap>
                         <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onClick={event => window.location.href='https://github.com/DevVlady/Weather_Dashboard'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             spy={true}
                             // offset={-80}
                         >Github</Button>
                         <Button
-                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                            onClick={event => window.location.href='https://devvlady.github.io/Weather_Dashboard/'}
                         >Deploy</Button>
                     </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon6}/>
-                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectH2>Project inf</ProjectH2>
                     <BtnWrap>
                         <Button
                             onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
