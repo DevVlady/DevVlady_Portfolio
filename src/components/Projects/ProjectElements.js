@@ -80,6 +80,7 @@ export const ProjectIcon = styled.img `
     height: 260px;
     width: 260px;
     margin-bottom: 5px;
+    border-radius: 10px;
 `;
 
 export const BtnWrap = styled.div `
