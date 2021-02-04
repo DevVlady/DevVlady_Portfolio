@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {Link} from 'react-scroll';
 
 export const ProjectContainer = styled.div `
     height: 1160px;
@@ -79,4 +80,20 @@ export const ProjectIcon = styled.img `
     height: 160px;
     width: 160px;
     margin-bottom: 10px;
+`;
+
+export const BtnWrap = styled.div `
+    display: flex;
+    justify-content: flex-start;
+`;
+
+export const Button = styled(Link) `
+    outline: 1px solid;
+    border-radius: 30%;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin: 5px
 `;

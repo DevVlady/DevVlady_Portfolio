@@ -3,7 +3,8 @@ import Icon1 from '../../images/Progressive Budget.png';
 import Icon2 from '../../images/Progressive Budget.png';
 import Icon3 from '../../images/Progressive Budget.png';
 import Icon4 from '../../images/Progressive Budget.png';
-import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, ProjectP } from './ProjectElements';
+import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, ProjectP, BtnWrap, Button } from './ProjectElements';
+
 
 const Projects = () => {
     return (
@@ -12,8 +13,16 @@ const Projects = () => {
             <ProjectWrapper>
                 <ProjectCard>
                     <ProjectIcon src={Icon1}/>
-                    <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
+                    <ProjectH2>Budget App</ProjectH2>
+                    {/* <ProjectP>Description</ProjectP> */}
+                    <BtnWrap>
+                        <Button
+                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                        >Github</Button>
+                        <Button
+                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                        >Deploy</Button>
+                    </BtnWrap>
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon2}/>
