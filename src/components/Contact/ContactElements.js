@@ -85,7 +85,7 @@ export const FormInputMsg = styled.input `
     border-radius: 4px;
     // word-wrap: break-word;
     // word-break: break-all;
-    overflow-wrap: wrap;
+    // overflow-wrap: wrap;
 `;
 
 export const FormButton = styled.button `
