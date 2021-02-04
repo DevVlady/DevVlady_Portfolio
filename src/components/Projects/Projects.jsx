@@ -26,8 +26,8 @@ const Projects = () => {
                             onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
-                            primary='true'
-                            dark='true'
+                            // primary='false'
+                            // dark='true'
                             spy={true}
                             // exact='true'
                             // offset={-80}
