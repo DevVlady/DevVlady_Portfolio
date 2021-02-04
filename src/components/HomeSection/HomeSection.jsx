@@ -1,10 +1,10 @@
 import React, {useState} from 'react';
 import Video from '../../videos/video.mp4';
 // import Picture from '../../images/headshot.jpg'
-import { HeroContainer, HeroBg, VideoBg, HeroContent, HeroH1, HeroP, HeroImgBg, HeroImg, HeroBtnWrapper, ArrowForward, ArrowDown } from './HeroElements'
+import { HomeContainer, HomeBg, VideoBg, HomeContent, HomeH1, HomeP, HomeImgBg, HomeImg, HomeBtnWrapper, ArrowForward, ArrowDown } from './HomeElements'
 import {Button} from '../ButtonElements'
 
-const HeroSection = () => {
+const HomeSection = () => {
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
@@ -12,18 +12,18 @@ const HeroSection = () => {
     }
 
     return (
-        <HeroContainer>
-            <HeroBg>
+        <HomeContainer>
+            <HomeBg>
                 <VideoBg autoPlay loop muted  src={Video} type='video/mp4' />
-            </HeroBg>
-            {/* <HeroImgBg>
-                <HeroImg src={Picture} type='image/jpg'/>
-            </HeroImgBg> */}
-            <HeroContent>
-                <HeroH1>Hello,</HeroH1>
-                <HeroH1>My name is Vladimir Dimitrov</HeroH1>
-                <HeroP>I'm a Full Stack Web Developer</HeroP>
-                <HeroBtnWrapper>
+            </HomeBg>
+            {/* <HomeImgBg>
+                <HomeImg src={Picture} type='image/jpg'/>
+            </HomeImgBg> */}
+            <HomeContent>
+                <HomeH1>Hello,</HomeH1>
+                <HomeH1>My name is Vladimir Dimitrov</HomeH1>
+                <HomeP>I'm a Full Stack Web Developer</HomeP>
+                <HomeBtnWrapper>
                     <Button
                         to='about'
                         onMouseEnter={onHover}
@@ -38,10 +38,10 @@ const HeroSection = () => {
                     >
                         About Me {hover ? <ArrowForward/> : <ArrowDown/>}
                     </Button>
-                </HeroBtnWrapper>
-            </HeroContent>
-        </HeroContainer>
+                </HomeBtnWrapper>
+            </HomeContent>
+        </HomeContainer>
     )
 }
 
-export default HeroSection
+export default HomeSection

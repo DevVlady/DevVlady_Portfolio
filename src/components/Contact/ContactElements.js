@@ -8,7 +8,7 @@ export const ContactContainer = styled.div `
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    background: gray;
+    background: #2c3e50;
 
     @media screen and (max-width: 768px) {
         height: 1500px;
@@ -60,7 +60,7 @@ export const Form = styled.form `
 
 export const FormH1 = styled.h1 `
     margin-bottom: 40px;
-    color: #fff;
+    color: gray;
     font-size: 30px;
     font-weight: 400;
     text-align: center;

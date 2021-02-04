@@ -1,7 +1,7 @@
 import styled from 'styled-components';
 import {MdArrowDownward, MdKeyboardArrowDown} from 'react-icons/md';
 
-export const HeroContainer = styled.div `
+export const HomeContainer = styled.div `
     background: #0c0c0c;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ export const HeroContainer = styled.div `
     }
 `;
 
-export const HeroBg = styled.div `
+export const HomeBg = styled.div `
     position: absolute;
     top: 0;
     right: 0;
@@ -42,7 +42,7 @@ export const VideoBg = styled.video `
     background: #232a34;
 `;
 
-export const HeroImgBg = styled.div `
+export const HomeImgBg = styled.div `
     z-index: 3;
     position: absolute;
     padding: 8px 24px;
@@ -51,7 +51,7 @@ export const HeroImgBg = styled.div `
     align-items: center
 `;
 
-export const HeroImg = styled.img `
+export const HomeImg = styled.img `
     border-radius: 50%;
     width: 350px;
     height: 350px;
@@ -62,7 +62,7 @@ export const HeroImg = styled.img `
     // align-items: center
 `;
 
-export const HeroContent = styled.div `
+export const HomeContent = styled.div `
     z-index: 3;
     max-width: 1200px;
     position: absolute;
@@ -73,7 +73,7 @@ export const HeroContent = styled.div `
 `;
 
 
-export const HeroH1 = styled.h1 `
+export const HomeH1 = styled.h1 `
     color: #fff;
     font-size: 48px;
     text-align: center;
@@ -87,7 +87,7 @@ export const HeroH1 = styled.h1 `
     }
 `;
 
-export const HeroP = styled.p `
+export const HomeP = styled.p `
     margin-top: 24px;
     color: #fff;
     font-size: 24px;
@@ -103,7 +103,7 @@ export const HeroP = styled.p `
     }
 `;
 
-export const HeroBtnWrapper = styled.div `
+export const HomeBtnWrapper = styled.div `
     margin-top: 32px;
     display: flex;
     flex-direction: column;

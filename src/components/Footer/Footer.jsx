@@ -21,7 +21,7 @@ const Footer = () => {
                                 <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About Me</FooterLinkTitle>
+                            <FooterLinkTitle>Social</FooterLinkTitle>
                                 <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
                                 <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
                                 <a href="https://github.com/DevVlady">Github</a>

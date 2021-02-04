@@ -1,14 +1,14 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 import Pic1 from '../../images/businessPhoto.jpg'
-import { InfoContainer, InfoWrapper, InfoRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img } from './InfoElements';
+import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img } from './AboutElements';
 
-const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
+const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
     return (
         <>
-            <InfoContainer lightBg={lightBg} id={id}>
-                <InfoWrapper>
-                    <InfoRow imgStart={imgStart}>
+            <AboutContainer lightBg={lightBg} id={id}>
+                <AboutWrapper>
+                    <AboutRow imgStart={imgStart}>
                         <ColumnOne>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
@@ -33,11 +33,11 @@ const InfoSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dark
                                 <Img src={Pic1} alt={alt} />
                             </ImgWrap>
                         </ColumnTwo>
-                    </InfoRow>
-                </InfoWrapper>
-            </InfoContainer>
+                    </AboutRow>
+                </AboutWrapper>
+            </AboutContainer>
         </>
     )
 }
 
-export default InfoSection
+export default AboutSection

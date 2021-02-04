@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-export const InfoContainer = styled.div `
+export const AboutContainer = styled.div `
     color: #fff;
     background: ${({lightBg}) => (lightBg ? '#2c3e50' : '#010606')};
 
@@ -9,7 +9,7 @@ export const InfoContainer = styled.div `
     }
 `;
 
-export const InfoWrapper = styled.div `
+export const AboutWrapper = styled.div `
     display: grid;
     z-index: 1;
     height: 1160px;
@@ -21,7 +21,7 @@ export const InfoWrapper = styled.div `
     justify-content: center;
 `;
 
-export const InfoRow = styled.div `
+export const AboutRow = styled.div `
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;

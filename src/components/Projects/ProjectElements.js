@@ -20,7 +20,7 @@ export const ProjectContainer = styled.div `
 
 export const ProjectH1 = styled.h1 `
     font-size: 2.5rem;
-    color: #fff;
+    color: #01bf71;
     margin-bottom: 24px;
 
     @media screen and (max-width: 480px) {
@@ -89,17 +89,6 @@ export const BtnWrap = styled.div `
 `;
 
 export const Button = styled(Link) `
-    // border: 1px solid;
-    // border-radius: 10px;
-    // cursor: pointer;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    // transition: all 0.2s ease-in-out;
-    // margin: 5px;
-    // padding: 2px;
-    // background: green
-
     border-radius: 50px;
     background: #010606;
     white-space: nowrap;
