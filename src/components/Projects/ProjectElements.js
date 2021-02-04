@@ -29,7 +29,7 @@ export const ProjectH1 = styled.h1 `
 `;
 
 export const ProjectH2 = styled.h2 `
-    font-size: 1rem;
+    font-size: 25px;
     margin-bottom: 10px;
 `;
 
@@ -42,10 +42,10 @@ export const ProjectWrapper = styled.div `
     max-width: 1000px;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
     align-items: center;
-    grid-gap: 16px;
-    padding: 0 50px;
+    grid-gap: 30px;
+    // padding: 0 50px;
 
     @media screen and (max-width: 1000px) {
         grid-template-columns: 1fr 1fr;
@@ -77,9 +77,9 @@ export const ProjectCard = styled.div `
 `;
 
 export const ProjectIcon = styled.img `
-    height: 160px;
-    width: 160px;
-    margin-bottom: 10px;
+    height: 260px;
+    width: 260px;
+    margin-bottom: 5px;
 `;
 
 export const BtnWrap = styled.div `
@@ -100,11 +100,11 @@ export const Button = styled(Link) `
     // background: green
 
     border-radius: 50px;
-    background: ${({primary}) => (primary ? '#01bf71' : '#010606')};
+    background: #010606;
     white-space: nowrap;
-    padding: ${({big}) => (big ? '5px 10px' : '5px 15px')};
-    color: ${({dark}) => (dark ? '#010606' : '#fff')};
-    font-size: ${({fontBig}) => (fontBig ? '20px' : '16px')};
+    padding: 5px 15px;
+    color: white;
+    font-size: 20px;
     outline: none;
     border: none;
     cursor: pointer;
@@ -112,10 +112,11 @@ export const Button = styled(Link) `
     justify-content: center;
     align-items: center;
     transition: all 0.2s ease-in-out;
+    margin: 3px;
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: ${({primary}) => (primary ? 'black' : '#01BF71')};
-        color: ${({dark}) => (dark ? '#fff' : '#010606')};
+        background: #01BF71;
+        color: #010606;
     };
 `;

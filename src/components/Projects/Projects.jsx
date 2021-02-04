@@ -26,10 +26,7 @@ const Projects = () => {
                             onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
-                            // primary='false'
-                            // dark='true'
                             spy={true}
-                            // exact='true'
                             // offset={-80}
                         >Github</Button>
                         <Button
@@ -62,17 +59,6 @@ const Projects = () => {
                     <ProjectH2>Project info</ProjectH2>
                     <ProjectP>Description</ProjectP>
                 </ProjectCard>
-                <ProjectCard>
-                    <ProjectIcon src={Icon4}/>
-                    <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
-                </ProjectCard>
-                <ProjectCard>
-                    <ProjectIcon src={Icon4}/>
-                    <ProjectH2>Project info</ProjectH2>
-                    <ProjectP>Description</ProjectP>
-                </ProjectCard>
-
             </ProjectWrapper>
         </ProjectContainer>
     )
