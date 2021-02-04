@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import {Link} from 'react-scroll';
 
 export const ProjectContainer = styled.div `
-    height: 1160px;
+    height: 1560px;
     display: flex;
     flex-direction: column;
     justify-content: center;
