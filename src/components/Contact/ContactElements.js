@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { GrSend } from 'react-icons/gr';
+import { RiMailSendLine } from 'react-icons/ri';
 // import { Link } from 'react-router-dom';
 
 export const ContactContainer = styled.div `
@@ -50,7 +50,7 @@ export const Form = styled.form `
     display: grid;
     margin: 0 auto;
     padding: 80px 32px;
-    border-radius: 4px;
+    border-radius: 25px;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9)
 
     @media screen and (max-width: 400px) {
@@ -89,22 +89,23 @@ export const FormInputMsg = styled.input `
 `;
 
 export const FormButton = styled.button `
-    background: #01bf71;
+    background: #0032FF;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: #fff;
+    color: white;
     font-size: 20px;
     cursor: pointer;
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: white;
+        background: #01bf71;
         color: black;
     };
 `;
 
-export const SendIcon = styled(GrSend) `
+export const SendIcon = styled(RiMailSendLine) `
     margin-left: 8px;
     font-size: 20px;
+    color: white;
 `;
