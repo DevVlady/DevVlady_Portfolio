@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import { GrSend } from 'react-icons/gr';
 // import { Link } from 'react-router-dom';
 
 export const ContactContainer = styled.div `
@@ -101,4 +102,9 @@ export const FormButton = styled.button `
         background: white;
         color: black;
     };
+`;
+
+export const SendIcon = styled(GrSend) `
+    margin-left: 8px;
+    font-size: 20px;
 `;
