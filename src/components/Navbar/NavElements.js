@@ -30,7 +30,7 @@ export const NavbarContainer = styled.div`
 `;
 
 export const NavLogo = styled(LinkR)`
-    color: #fff;
+    color: #01bf71;
     justify-self: flex-start;
     cursor: pointer;
     font-size: 1.5rem;
@@ -73,7 +73,7 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #fff;
+    color: #01bf71;
     display: flex;
     align-items: center;
     text-decoration: none;
@@ -83,5 +83,9 @@ export const NavLinks = styled(LinkS)`
 
     &.active {
         border-bottom: 5px solid #01bf71;
+    }
+
+    &:hover {
+        color: #0032FF;
     }
 `;
