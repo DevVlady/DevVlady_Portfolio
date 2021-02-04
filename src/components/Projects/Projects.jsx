@@ -1,6 +1,6 @@
 import React, {useState} from 'react';
 import Icon1 from '../../images/Progressive Budget.png';
-import Icon2 from '../../images/Progressive Budget.png';
+import Icon2 from '../../images/Screen Shot 2021-02-04 at 11.15.51 AM.png';
 import Icon3 from '../../images/Progressive Budget.png';
 import Icon4 from '../../images/Progressive Budget.png';
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, ProjectP, BtnWrap, Button } from './ProjectElements';
