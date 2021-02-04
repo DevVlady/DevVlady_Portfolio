@@ -102,17 +102,17 @@ const Projects = () => {
                 </ProjectCard>
                 <ProjectCard>
                     <ProjectIcon src={Icon6}/>
-                    <ProjectH2>Project info</ProjectH2>
+                    <ProjectH2>Directory</ProjectH2>
                     <BtnWrap>
                         <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/Progressive_Budget'}
+                            onClick={event => window.location.href='https://github.com/DevVlady/User-Directory'}
                             onMouseEnter={onHover}
                             onMouseLeave={onHover}
                             spy={true}
                             // offset={-80}
                         >Github</Button>
                         <Button
-                            onClick={event => window.location.href='https://my-progressive-budget.herokuapp.com/'}
+                            onClick={event => window.location.href='https://devvlady.github.io/User-Directory/'}
                         >Deploy</Button>
                     </BtnWrap>
                 </ProjectCard>
