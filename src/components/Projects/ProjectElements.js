@@ -2,15 +2,16 @@ import styled from 'styled-components';
 import {Link} from 'react-scroll';
 
 export const ProjectContainer = styled.div `
-    height: 1560px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #29323c;
+    padding-bottom: 45px;
 
     @media screen and (max-width: 768px) {
-        height: 1500px;
+        height: 100%;
     }
 
     @media screen and (max-width: 480px) {

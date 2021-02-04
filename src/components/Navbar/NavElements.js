@@ -58,6 +58,7 @@ export const MobileIcon = styled.div`
         cursor: pointer;
         color: #fff;
     }
+    
 `;
 
 export const NavMenu = styled.ul`
