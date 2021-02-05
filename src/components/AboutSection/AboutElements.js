@@ -5,6 +5,8 @@ import {SiJavascript} from 'react-icons/si';
 import {FaNodeJs} from 'react-icons/fa';
 import {SiJquery} from 'react-icons/si';
 import {SiReact} from 'react-icons/si';
+import {SiMongodb} from 'react-icons/si';
+import {SiMysql} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -174,5 +176,25 @@ export const ReactJS = styled(SiReact) `
 
     &:hover {
         color: #5caafd;
+    }
+`;
+
+export const MongoDB = styled(SiMongodb) `
+    height: 130px;
+    width: 130px;
+    color: black;
+
+    &:hover {
+        color: #31b250;
+    }
+`;
+
+export const MySQL = styled(SiMysql) `
+    height: 180px;
+    width: 180px;
+    color: black;
+
+    &:hover {
+        color: #00758F;
     }
 `;
