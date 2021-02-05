@@ -1,5 +1,6 @@
 import styled from 'styled-components';
 import {AiFillHtml5} from 'react-icons/ai';
+import {DiCss3} from 'react-icons/di';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -99,7 +100,35 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
+export const IconsRow = styled.div `
+    display: grid;
+    grid-auto-columns: minmax(auto, 1fr);
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+
+    // grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
+
+    // @media screen and (max-width: 768px) {
+    //     grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    // }
+`;
+
 export const HTML5 = styled(AiFillHtml5) `
     height: 150px;
     width: 150px;
+    color: black;
+
+    &:hover {
+        color: red;
+    }
+`;
+
+export const CSS3 = styled(DiCss3) `
+    height: 150px;
+    width: 150px;
+    color: black;
+
+    &:hover {
+        color: blue;
+    }
 `;
