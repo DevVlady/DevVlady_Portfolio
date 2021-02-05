@@ -9,6 +9,7 @@ import {SiMongodb} from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
 import {SiJson} from 'react-icons/si';
 import {SiWebpack} from 'react-icons/si';
+import {IoLogoNpm} from 'react-icons/io';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -127,7 +128,7 @@ export const HTML5 = styled(AiFillHtml5) `
     color: black;
 
     &:hover {
-        color: red;
+        color: #e34c26;
     }
 `;
 
@@ -137,7 +138,7 @@ export const CSS3 = styled(DiCss3) `
     color: black;
 
     &:hover {
-        color: blue;
+        color: #264de4;
     }
 `;
 
@@ -147,7 +148,7 @@ export const JavaScript = styled(SiJavascript) `
     color: black;
 
     &:hover {
-        color: yellow;
+        color: #f0db4f;
     }
 `;
 
@@ -157,7 +158,7 @@ export const NodeJS = styled(FaNodeJs) `
     color: black;
 
     &:hover {
-        color: green;
+        color: #68a063;
     }
 `;
 
@@ -167,7 +168,7 @@ export const JQ = styled(SiJquery) `
     color: black;
 
     &:hover {
-        color: #3160dc;
+        color: #0769ad;
     }
 `;
 
@@ -177,7 +178,7 @@ export const ReactJS = styled(SiReact) `
     color: black;
 
     &:hover {
-        color: #5caafd;
+        color: #61DBFB;
     }
 `;
 
@@ -187,7 +188,7 @@ export const MongoDB = styled(SiMongodb) `
     color: black;
 
     &:hover {
-        color: #31b250;
+        color: #3FA037;
     }
 `;
 
@@ -218,5 +219,15 @@ export const WebPack = styled(SiWebpack) `
 
     &:hover {
         color: #8ed6fb;
+    }
+`;
+
+export const NPM = styled(IoLogoNpm) `
+    height: 160px;
+    width: 160px;
+    color: black;
+
+    &:hover {
+        color: #CC3534;
     }
 `;
