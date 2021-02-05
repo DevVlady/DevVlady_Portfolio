@@ -44,7 +44,7 @@ export const AboutRow = styled.div `
 `;
 
 export const ColumnOne = styled.div `
-    margin-bottom: 15px;
+    margin-bottom: 10px;
     padding: 0 15px;
     grid-area: col1;
 `;

@@ -60,7 +60,7 @@ export const ProjectWrapper = styled.div `
 `;
 
 export const ProjectCard = styled.div `
-    background: #fff;
+    background: #00C9FF;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

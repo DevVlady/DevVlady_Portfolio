@@ -34,7 +34,7 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                             </ImgWrap>
                         </ColumnTwo>
                     </AboutRow>
-                    <IconHeading>Programs & Applications</IconHeading>
+                    {/* <IconHeading>Programs & Applications</IconHeading> */}
                     <IconsRow>
                         <HTML5 />
                         <CSS3 />
