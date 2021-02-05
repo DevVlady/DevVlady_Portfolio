@@ -42,30 +42,18 @@ export const VideoBg = styled.video `
     background: #232a34;
 `;
 
-export const HomeImgBg = styled.div `
-    z-index: 3;
-    position: absolute;
-    padding: 8px 24px;
-    display: flex;
-    flex-direction: column;
-    align-items: center
-`;
-
 export const HomeImg = styled.img `
     border-radius: 50%;
     width: 350px;
     height: 350px;
-    // z-index: 3;
-    // position: absolute;
-    // display: flex;
-    // flex-direction: column;
-    // align-items: center
+    display: inline;
+    float: center;
 `;
 
 export const HomeContent = styled.div `
     z-index: 3;
     max-width: 1200px;
-    position: absolute;
+    position: static;
     padding: 8px 24px;
     display: flex;
     flex-direction: column;
@@ -104,7 +92,7 @@ export const HomeP = styled.p `
 `;
 
 export const HomeBtnWrapper = styled.div `
-    margin-top: 32px;
+    margin-top: 15px;
     display: flex;
     flex-direction: column;
     align-items: center;
