@@ -109,6 +109,18 @@ export const Img = styled.img`
     padding-right: 0;
 `;
 
+export const IconHeading = styled.p `
+    color: black;
+    font-size: 40px;
+    line-height: 16px;
+    font-weight: 700;
+    letter-spacing: 1.4px;
+    text-transform: uppercase;
+    text-align: center;
+    text-decoration: underline;
+`;
+
+
 export const IconsRow = styled.div `
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
@@ -133,8 +145,8 @@ export const HTML5 = styled(AiFillHtml5) `
 `;
 
 export const CSS3 = styled(DiCss3) `
-    height: 150px;
-    width: 150px;
+    height: 155px;
+    width: 155px;
     color: black;
 
     &:hover {

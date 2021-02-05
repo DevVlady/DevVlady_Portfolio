@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 import Pic1 from '../../images/businessPhoto.jpg';
-import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img, IconsRow, HTML5, CSS3, JavaScript, NodeJS, JQ, ReactJS, MongoDB, MySQL, JSON, WebPack, NPM } from './AboutElements';
+import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img, IconHeading, IconsRow, HTML5, CSS3, JavaScript, NodeJS, JQ, ReactJS, MongoDB, MySQL, JSON, WebPack, NPM } from './AboutElements';
 
 const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
     return (
@@ -34,18 +34,19 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                             </ImgWrap>
                         </ColumnTwo>
                     </AboutRow>
+                    <IconHeading>Programs & Applications</IconHeading>
                     <IconsRow>
-                        <HTML5/>
-                        <CSS3/>
-                        <JavaScript/>
-                        <NodeJS/>
-                        <JQ/>
-                        <ReactJS/>
-                        <MongoDB/>
-                        <MySQL/>
-                        <JSON/>
-                        <WebPack/>
-                        <NPM/>
+                        <HTML5 />
+                        <CSS3 />
+                        <JavaScript />
+                        <NodeJS />
+                        <JQ />
+                        <ReactJS />
+                        <MongoDB />
+                        <MySQL />
+                        <JSON />
+                        <WebPack />
+                        <NPM />
                     </IconsRow>
                 </AboutWrapper>
             </AboutContainer>
