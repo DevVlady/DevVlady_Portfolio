@@ -1,6 +1,7 @@
 import styled from 'styled-components';
 import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3} from 'react-icons/di';
+import {SiJavascript} from 'react-icons/si'
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -106,11 +107,11 @@ export const IconsRow = styled.div `
     align-items: center;
     grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
-    // grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
+    grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-    // @media screen and (max-width: 768px) {
-    //     grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
-    // }
+    @media screen and (max-width: 768px) {
+        grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    }
 `;
 
 export const HTML5 = styled(AiFillHtml5) `
@@ -130,5 +131,15 @@ export const CSS3 = styled(DiCss3) `
 
     &:hover {
         color: blue;
+    }
+`;
+
+export const JavaScript = styled(SiJavascript) `
+    height: 120px;
+    width: 120px;
+    color: black;
+
+    &:hover {
+        color: yellow;
     }
 `;
