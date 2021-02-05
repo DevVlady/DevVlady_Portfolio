@@ -1,4 +1,5 @@
 import styled from 'styled-components';
+import {AiFillHtml5} from 'react-icons/ai';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -96,5 +97,9 @@ export const Img = styled.img`
     border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;
+`;
 
+export const HTML5 = styled(AiFillHtml5) `
+    height: 150px;
+    width: 150px;
 `;

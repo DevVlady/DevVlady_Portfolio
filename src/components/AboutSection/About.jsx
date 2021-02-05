@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
-import Pic1 from '../../images/businessPhoto.jpg'
-import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img } from './AboutElements';
+import Pic1 from '../../images/businessPhoto.jpg';
+import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img, HTML5 } from './AboutElements';
 
 const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
     return (
@@ -34,8 +34,9 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                             </ImgWrap>
                         </ColumnTwo>
                     </AboutRow>
-                    <AboutRow imgStart={imgStart}>
-                        <ColumnOne>
+                    <AboutRow>
+                        <HTML5/>
+                        {/* <ColumnOne>
                             <TextWrapper>
                                 <TopLine>{topLine}</TopLine>
                                 <Heading lightText={lightText}>{headline}</Heading>
@@ -43,9 +44,8 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                             </TextWrapper>
                         </ColumnOne>
                         <ColumnTwo>
-                        </ColumnTwo>
+                        </ColumnTwo> */}
                     </AboutRow>
-
                 </AboutWrapper>
             </AboutContainer>
         </>
