@@ -7,6 +7,7 @@ import {SiJquery} from 'react-icons/si';
 import {SiReact} from 'react-icons/si';
 import {SiMongodb} from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
+import {SiJson} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -196,5 +197,15 @@ export const MySQL = styled(SiMysql) `
 
     &:hover {
         color: #00758F;
+    }
+`;
+
+export const JSON = styled(SiJson) `
+    height: 150px;
+    width: 150px;
+    color: black;
+
+    &:hover {
+        color: #226446;
     }
 `;
