@@ -30,7 +30,7 @@ export const HomeBg = styled.div `
     bottom: 0;
     left: 0;
     width: 100%;
-    heigth: 100%;
+    height: 100%;
     overflow: hidden;
 `;
 
