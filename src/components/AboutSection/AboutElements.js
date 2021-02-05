@@ -3,6 +3,7 @@ import {AiFillHtml5} from 'react-icons/ai';
 import {DiCss3} from 'react-icons/di';
 import {SiJavascript} from 'react-icons/si';
 import {FaNodeJs} from 'react-icons/fa';
+import {SiJquery} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -152,5 +153,15 @@ export const NodeJS = styled(FaNodeJs) `
 
     &:hover {
         color: green;
+    }
+`;
+
+export const JQ = styled(SiJquery) `
+    height: 130px;
+    width: 130px;
+    color: black;
+
+    &:hover {
+        color: #3160dc;
     }
 `;
