@@ -1,7 +1,7 @@
 import React from 'react';
 import { Button } from '../ButtonElements';
 import Pic1 from '../../images/businessPhoto.jpg';
-import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img, IconsRow, HTML5, CSS3, JavaScript, NodeJS, JQ } from './AboutElements';
+import { AboutContainer, AboutWrapper, AboutRow, ColumnOne, TextWrapper, TopLine, Heading, Subtitle, ButtonWrap, ColumnTwo, ImgWrap, Img, IconsRow, HTML5, CSS3, JavaScript, NodeJS, JQ, ReactJS } from './AboutElements';
 
 const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
     return (
@@ -40,7 +40,7 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                         <JavaScript/>
                         <NodeJS/>
                         <JQ/>
-                        <CSS3/>
+                        <ReactJS/>
                         <CSS3/>
                         <CSS3/>
                         <CSS3/>

@@ -4,6 +4,7 @@ import {DiCss3} from 'react-icons/di';
 import {SiJavascript} from 'react-icons/si';
 import {FaNodeJs} from 'react-icons/fa';
 import {SiJquery} from 'react-icons/si';
+import {SiReact} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -107,7 +108,7 @@ export const IconsRow = styled.div `
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
@@ -163,5 +164,15 @@ export const JQ = styled(SiJquery) `
 
     &:hover {
         color: #3160dc;
+    }
+`;
+
+export const ReactJS = styled(SiReact) `
+    height: 130px;
+    width: 130px;
+    color: black;
+
+    &:hover {
+        color: #5caafd;
     }
 `;
