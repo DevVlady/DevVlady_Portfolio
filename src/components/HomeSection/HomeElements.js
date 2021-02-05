@@ -60,7 +60,6 @@ export const HomeContent = styled.div `
     align-items: center
 `;
 
-
 export const HomeH1 = styled.h1 `
     color: #fff;
     font-size: 48px;

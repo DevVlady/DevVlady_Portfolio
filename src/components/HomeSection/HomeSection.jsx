@@ -21,7 +21,6 @@ const HomeSection = () => {
                 <HomeH1>My name is Vladimir Dimitrov</HomeH1>
                 <HomeP>I'm a Full Stack Web Developer</HomeP>
                 <HomeImg src={Picture} type='image/jpg' />
-
                 <HomeBtnWrapper>
                     <Button
                         to='about'

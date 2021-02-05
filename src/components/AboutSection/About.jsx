@@ -34,6 +34,18 @@ const AboutSection = ({ lightBg, id, imgStart, topLine, lightText, headline, dar
                             </ImgWrap>
                         </ColumnTwo>
                     </AboutRow>
+                    <AboutRow imgStart={imgStart}>
+                        <ColumnOne>
+                            <TextWrapper>
+                                <TopLine>{topLine}</TopLine>
+                                <Heading lightText={lightText}>{headline}</Heading>
+                                <Subtitle darkText={darkText}>{description}</Subtitle>
+                            </TextWrapper>
+                        </ColumnOne>
+                        <ColumnTwo>
+                        </ColumnTwo>
+                    </AboutRow>
+
                 </AboutWrapper>
             </AboutContainer>
         </>

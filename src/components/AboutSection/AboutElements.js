@@ -92,7 +92,7 @@ export const ImgWrap = styled.div `
 
 export const Img = styled.img`
     height: 650px;
-    width: 450px;
+    width: 430px;
     border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;
