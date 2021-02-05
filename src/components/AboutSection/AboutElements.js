@@ -8,6 +8,7 @@ import {SiReact} from 'react-icons/si';
 import {SiMongodb} from 'react-icons/si';
 import {SiMysql} from 'react-icons/si';
 import {SiJson} from 'react-icons/si';
+import {SiWebpack} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: #fff;
@@ -207,5 +208,15 @@ export const JSON = styled(SiJson) `
 
     &:hover {
         color: #226446;
+    }
+`;
+
+export const WebPack = styled(SiWebpack) `
+    height: 160px;
+    width: 160px;
+    color: black;
+
+    &:hover {
+        color: #8ed6fb;
     }
 `;
