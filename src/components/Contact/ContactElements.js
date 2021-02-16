@@ -1,6 +1,5 @@
 import styled from 'styled-components';
 import { RiMailSendLine } from 'react-icons/ri';
-// import { Link } from 'react-router-dom';
 
 export const ContactContainer = styled.div `
     height: 1160px;
