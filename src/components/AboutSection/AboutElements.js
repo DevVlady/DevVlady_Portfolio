@@ -12,7 +12,7 @@ import {SiWebpack} from 'react-icons/si';
 import {IoLogoNpm} from 'react-icons/io';
 
 export const AboutContainer = styled.div `
-    color: #fff;
+    color: rgb(222, 218, 218);
     background: ${({lightBg}) => (lightBg ? '#2c3e50' : '#010606')};
 
     @media screen and (max-width: 768px) {
@@ -76,7 +76,7 @@ export const Heading = styled.h1 `
     font-size: 35px;
     line-height: 1.1;
     font-weight: 600;
-    color: ${({ lightText }) => (lightText ? '#010606' : '#f7f8fa')};
+    color: ${({ lightText }) => (lightText ? '#010606' : 'rgb(222, 218, 218)')};
 
     @media screen and (max-width: 480px) {
         font-size: 32px;
@@ -88,7 +88,7 @@ export const Subtitle = styled.p `
     margin-top: 35px;
     font-size: 18px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : '#fff')};
+    color: ${({darkText}) => (darkText ? '#010606' : 'rgb(222, 218, 218)')};
 `;
 
 export const ButtonWrap = styled.div `

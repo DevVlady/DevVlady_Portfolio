@@ -69,7 +69,7 @@ export const FormH1 = styled.h1 `
 export const FormLabel = styled.label `
     margin-bottom: 8px;
     font-size: 14px;
-    color: #fff;
+    color: rgb(222, 218, 218);
 `;
 
 export const FormInput = styled.input `
@@ -89,7 +89,7 @@ export const FormInputMsg = styled.input `
 `;
 
 export const FormButton = styled.button `
-    background: #0032FF;
+    background: #01bf71;
     padding: 16px 0;
     border: none;
     border-radius: 4px;
@@ -99,8 +99,8 @@ export const FormButton = styled.button `
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #01bf71;
-        color: black;
+        background: #0032FF;
+        color: rgb(222, 218, 218);
     };
 `;
 
