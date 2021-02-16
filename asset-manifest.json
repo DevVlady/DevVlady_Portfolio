@@ -1,21 +1,22 @@
 {
   "files": {
     "main.css": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css",
-    "main.js": "/DevVlady_Portfolio/static/js/main.1b39f338.chunk.js",
-    "main.js.map": "/DevVlady_Portfolio/static/js/main.1b39f338.chunk.js.map",
+    "main.js": "/DevVlady_Portfolio/static/js/main.0575f2c2.chunk.js",
+    "main.js.map": "/DevVlady_Portfolio/static/js/main.0575f2c2.chunk.js.map",
     "runtime-main.js": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js",
     "runtime-main.js.map": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js.map",
-    "static/js/2.a9cf538f.chunk.js": "/DevVlady_Portfolio/static/js/2.a9cf538f.chunk.js",
-    "static/js/2.a9cf538f.chunk.js.map": "/DevVlady_Portfolio/static/js/2.a9cf538f.chunk.js.map",
+    "static/js/2.7ef442bb.chunk.js": "/DevVlady_Portfolio/static/js/2.7ef442bb.chunk.js",
+    "static/js/2.7ef442bb.chunk.js.map": "/DevVlady_Portfolio/static/js/2.7ef442bb.chunk.js.map",
     "index.html": "/DevVlady_Portfolio/index.html",
     "static/css/main.891739ba.chunk.css.map": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css.map",
-    "static/js/2.a9cf538f.chunk.js.LICENSE.txt": "/DevVlady_Portfolio/static/js/2.a9cf538f.chunk.js.LICENSE.txt",
+    "static/js/2.7ef442bb.chunk.js.LICENSE.txt": "/DevVlady_Portfolio/static/js/2.7ef442bb.chunk.js.LICENSE.txt",
     "static/media/Charging Forward.92fc32bf.png": "/DevVlady_Portfolio/static/media/Charging Forward.92fc32bf.png",
     "static/media/Directory.c557af07.png": "/DevVlady_Portfolio/static/media/Directory.c557af07.png",
     "static/media/Fitness_Tracker.afec1e0b.png": "/DevVlady_Portfolio/static/media/Fitness_Tracker.afec1e0b.png",
     "static/media/Note_Taker.6fb8b7eb.png": "/DevVlady_Portfolio/static/media/Note_Taker.6fb8b7eb.png",
     "static/media/Password_Gen.a5956b8b.png": "/DevVlady_Portfolio/static/media/Password_Gen.a5956b8b.png",
     "static/media/Progressive Budget.4203afe4.png": "/DevVlady_Portfolio/static/media/Progressive Budget.4203afe4.png",
+    "static/media/VDLogoBG.7e7c82e9.png": "/DevVlady_Portfolio/static/media/VDLogoBG.7e7c82e9.png",
     "static/media/Weather.9bbbbb42.png": "/DevVlady_Portfolio/static/media/Weather.9bbbbb42.png",
     "static/media/WorkPlanner.0645a609.png": "/DevVlady_Portfolio/static/media/WorkPlanner.0645a609.png",
     "static/media/businessPhoto.570c5df6.jpg": "/DevVlady_Portfolio/static/media/businessPhoto.570c5df6.jpg",
@@ -25,8 +26,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9f513927.js",
-    "static/js/2.a9cf538f.chunk.js",
+    "static/js/2.7ef442bb.chunk.js",
     "static/css/main.891739ba.chunk.css",
-    "static/js/main.1b39f338.chunk.js"
+    "static/js/main.0575f2c2.chunk.js"
   ]
 }
