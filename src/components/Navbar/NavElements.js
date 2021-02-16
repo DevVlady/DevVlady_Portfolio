@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { Link as LinkR } from 'react-router-dom';
+// import { Link as LinkR } from 'react-router-dom';
 import { Link as LinkS } from 'react-scroll';
 
 export const Nav = styled.nav`
@@ -29,20 +29,12 @@ export const NavbarContainer = styled.div`
     max-width: 1100px;
 `;
 
-export const NavLogo = styled(LinkR)`
-    color: #01bf71;
-    justify-self: flex-start;
-    cursor: pointer;
-    font-size: 1.5rem;
-    display: flex;
-    align-items: center;
-    margin-left: -15px;
-    font-weight: 900;
-    text-decoration: none;
-
-    &:hover {
-        color: #0032FF;
-    }
+export const NavIcon = styled.img `
+    border-radius: 20px;
+    width: 80px;
+    height: 80px;
+    display: inline;
+    float: center;
 `;
 
 export const MobileIcon = styled.div`
