@@ -43,7 +43,7 @@ export const AboutWrapper = styled.div `
 
 export const AboutRow = styled.div `
     display: grid;
-    grid-auto-columns: minmax(auto, 1fr);
+    // grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
@@ -82,7 +82,7 @@ export const TopLine = styled.p `
 
 export const Heading = styled.h1 `
     margin-bottom: 24px;
-    font-size: 35px;
+    font-size: 30px;
     line-height: 1.1;
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#010606' : 'rgb(222, 218, 218)')};
@@ -93,11 +93,13 @@ export const Heading = styled.h1 `
 `;
 
 export const Subtitle = styled.p `
-    max-width: 440px;
+    max-width: 540px;
     margin-top: 35px;
-    font-size: 18px;
+    margin-bottom: 35px;
+    font-size: 28px;
     line-height: 24px;
-    color: ${({darkText}) => (darkText ? '#010606' : 'rgb(222, 218, 218)')};
+    color: ${({darkText}) => (darkText ? 'rgb(222, 218, 218)' : '#010606')};
+    font-style: italic;
 `;
 
 export const ButtonWrap = styled.div `
@@ -111,8 +113,8 @@ export const ImgWrap = styled.div `
 `;
 
 export const Img = styled.img`
-    height: 650px;
-    width: 430px;
+    height: 750px;
+    width: 480px;
     border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;
