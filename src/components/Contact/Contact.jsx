@@ -1,7 +1,7 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
 // import{ init } from 'emailjs-com';
-import { ContactContainer, FormWrap, FormContent, Form, FormH1, FormLabel, FormInput, FormInputMsg, FormButton, SendIcon } from './ContactElements';
+import { ContactContainer, FormWrap, FormContent, Form, FormH1, FormP, FormLabel, FormInput, FormInputMsg, FormButton, SendIcon } from './ContactElements';
 
 const Contact = () => {
     function sendEmail(e) {
@@ -21,6 +21,7 @@ const Contact = () => {
                     <FormContent>
                         <Form className="contact-form" onSubmit={sendEmail}>
                             <FormH1>Contact Me</FormH1>
+                            <FormP>Have a question, would like to look over my portfolio, or simply connect with me via social media? Either way, I can't wait to hear from you. dev.vlady14@gmail.com</FormP>
                             <FormLabel htmlFor='for'>First & Last Name</FormLabel>
                             <FormInput type="text" name="user_name" required />
                             <FormLabel htmlFor='for'>Email</FormLabel>

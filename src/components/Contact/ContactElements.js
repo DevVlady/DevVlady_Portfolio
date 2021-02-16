@@ -4,7 +4,6 @@ import { RiMailSendLine } from 'react-icons/ri';
 
 export const ContactContainer = styled.div `
     height: 1160px;
-    // display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -43,7 +42,7 @@ export const FormContent = styled.div `
 
 export const Form = styled.form `
     background: #010606;
-    max-width: 400px;
+    max-width: 550px;
     height: auto;
     width: 100%;
     z-index: 1;
@@ -59,11 +58,20 @@ export const Form = styled.form `
 `;
 
 export const FormH1 = styled.h1 `
-    margin-bottom: 40px;
     color: rgb(222, 218, 218);
+    margin-bottom: 15px;
     font-size: 30px;
     font-weight: 400;
     text-align: center;
+`;
+
+export const FormP = styled.p `
+    margin: 10px;
+    color: gray;
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    padding-bottom: 15px;
 `;
 
 export const FormLabel = styled.label `
