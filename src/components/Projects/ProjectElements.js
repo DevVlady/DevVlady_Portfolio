@@ -33,12 +33,8 @@ export const ProjectH1 = styled.h1 `
 export const ProjectH2 = styled.h2 `
     font-size: 25px;
     margin-bottom: 10px;
+    color: #010606;
 `;
-
-// export const ProjectP = styled.p `
-//     font-size: 1rem;
-//     text-align: center;
-// `;
 
 export const ProjectWrapper = styled.div `
     max-width: 1000px;
@@ -60,7 +56,7 @@ export const ProjectWrapper = styled.div `
 `;
 
 export const ProjectCard = styled.div `
-    background: #00C9FF;
+    background: #01bf71;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -108,7 +104,7 @@ export const Button = styled(Link) `
 
     &:hover {
         transition: all 0.2s ease-in-out;
-        background: #01BF71;
-        color: #010606;
+        background: #0032FF;
+        color: #01BF71;
     };
 `;

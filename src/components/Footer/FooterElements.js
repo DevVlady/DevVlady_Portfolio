@@ -52,7 +52,7 @@ export const FooterLinkItems = styled.div `
 export const FooterLinkTitle = styled.h1 `
     font-size: 24px;
     margin-bottom: 15px;
-    color: gray;
+    color: rgb(222, 218, 218);
 `;
 
 // export const FooterLink = styled(Link) `
@@ -93,9 +93,8 @@ export const SocialLogo = styled.img `
 `;
 
 export const WebsiteRights = styled.small `
-    color: red;
+    color: #01bf71;
     font-size: 22px;
-    // margin-bottom: 0px;
 `;
 
 export const SocialIcons = styled.div `
@@ -106,10 +105,10 @@ export const SocialIcons = styled.div `
 `;
 
 export const SocialIconLink = styled.a `
-    color: gray;
-    font-size: 24px;
+    color: rgb(222, 218, 218);
+    font-size: 34px;
 
     &:hover {
-        color: #0032FF;
+        color: #01bf71;
     }
 `;
