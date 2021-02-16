@@ -8,7 +8,10 @@ const publicPath = path.join(__dirname, './public/index.html');
 
 app.use(express.static(publicPath));
 
-
+//Root route
+app.get('*', (req, res) => {
+    res.sendFile(path.join(publicPath, 'index.html'));
+ });
 
 //Server active on PORT
 app.listen(PORT, () => {
