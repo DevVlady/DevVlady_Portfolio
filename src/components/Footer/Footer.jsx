@@ -1,7 +1,8 @@
 import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
+import FooterLogo from '../../images/VDLogoBG.png';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, } from './FooterElements';
-import {FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa'
+import {FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
 
 const Footer = () => {
     const toggleHome = () => {
@@ -47,7 +48,7 @@ const Footer = () => {
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleHome}>VDimitrov</SocialLogo>
+                        <SocialLogo src={FooterLogo} to='/' onClick={toggleHome}/>
                         <WebsiteRights>Copyright © {new Date().getFullYear()} All Rights Reserved</WebsiteRights>
                         <SocialIcons>
                             <SocialIconLink href='https://www.instagram.com/dev_vlady/' target='_blank' aria-label='Instagram'>
