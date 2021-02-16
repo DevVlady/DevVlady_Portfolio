@@ -20,6 +20,15 @@ export const AboutContainer = styled.div `
     }
 `;
 
+export const ProgContainer = styled.div `
+    color: rgb(222, 218, 218);
+
+    @media screen and (max-width: 768px) {
+        padding: 100px 0;
+    }
+`;
+
+
 export const AboutWrapper = styled.div `
     display: grid;
     z-index: 1;
@@ -110,7 +119,7 @@ export const Img = styled.img`
 `;
 
 export const IconHeading = styled.p `
-    color: black;
+    color: #010606;
     font-size: 40px;
     line-height: 16px;
     font-weight: 700;
@@ -125,7 +134,7 @@ export const IconsRow = styled.div `
     display: grid;
     grid-auto-columns: minmax(auto, 1fr);
     align-items: center;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
 
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
@@ -135,9 +144,9 @@ export const IconsRow = styled.div `
 `;
 
 export const HTML5 = styled(AiFillHtml5) `
-    height: 150px;
-    width: 150px;
-    color: black;
+    height: 100px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #e34c26;
@@ -145,9 +154,9 @@ export const HTML5 = styled(AiFillHtml5) `
 `;
 
 export const CSS3 = styled(DiCss3) `
-    height: 155px;
-    width: 155px;
-    color: black;
+    height: 105px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #264de4;
@@ -155,9 +164,9 @@ export const CSS3 = styled(DiCss3) `
 `;
 
 export const JavaScript = styled(SiJavascript) `
-    height: 120px;
-    width: 120px;
-    color: black;
+    height: 80px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #f0db4f;
@@ -165,9 +174,9 @@ export const JavaScript = styled(SiJavascript) `
 `;
 
 export const NodeJS = styled(FaNodeJs) `
-    height: 130px;
-    width: 130px;
-    color: black;
+    height: 90px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #68a063;
@@ -175,9 +184,9 @@ export const NodeJS = styled(FaNodeJs) `
 `;
 
 export const JQ = styled(SiJquery) `
-    height: 130px;
-    width: 130px;
-    color: black;
+    height: 90px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #0769ad;
@@ -185,9 +194,9 @@ export const JQ = styled(SiJquery) `
 `;
 
 export const ReactJS = styled(SiReact) `
-    height: 130px;
-    width: 130px;
-    color: black;
+    height: 90px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #61DBFB;
@@ -195,9 +204,9 @@ export const ReactJS = styled(SiReact) `
 `;
 
 export const MongoDB = styled(SiMongodb) `
-    height: 130px;
-    width: 130px;
-    color: black;
+    height: 90px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #3FA037;
@@ -205,9 +214,9 @@ export const MongoDB = styled(SiMongodb) `
 `;
 
 export const MySQL = styled(SiMysql) `
-    height: 180px;
-    width: 180px;
-    color: black;
+    height: 120px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #00758F;
@@ -215,9 +224,9 @@ export const MySQL = styled(SiMysql) `
 `;
 
 export const JSON = styled(SiJson) `
-    height: 150px;
-    width: 150px;
-    color: black;
+    height: 100px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #226446;
@@ -225,9 +234,9 @@ export const JSON = styled(SiJson) `
 `;
 
 export const WebPack = styled(SiWebpack) `
-    height: 160px;
-    width: 160px;
-    color: black;
+    height: 110px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #8ed6fb;
@@ -235,9 +244,9 @@ export const WebPack = styled(SiWebpack) `
 `;
 
 export const NPM = styled(IoLogoNpm) `
-    height: 160px;
-    width: 160px;
-    color: black;
+    height: 120px;
+    width: 100px;
+    color: rgb(222, 218, 218);
 
     &:hover {
         color: #CC3534;
