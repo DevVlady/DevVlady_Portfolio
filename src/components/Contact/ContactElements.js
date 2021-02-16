@@ -50,7 +50,7 @@ export const Form = styled.form `
     margin: 0 auto;
     padding: 80px 32px;
     border-radius: 25px;
-    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9)
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.9);
 
     @media screen and (max-width: 400px) {
         padding: 32px 32px;
@@ -101,19 +101,18 @@ export const FormButton = styled.button `
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: rgb(222, 218, 218);
+    color:  #010606;
     font-size: 20px;
     cursor: pointer;
 
     &:hover {
         transition: all 0.2s ease-in-out;
         background: #0032FF;
-        color: rgb(222, 218, 218);
     };
 `;
 
 export const SendIcon = styled(RiMailSendLine) `
     margin-left: 8px;
     font-size: 20px;
-    color: rgb(222, 218, 218);
+    color:  #010606;
 `;

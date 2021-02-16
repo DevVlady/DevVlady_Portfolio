@@ -28,7 +28,7 @@ This project is licensed under the MIT license
 
 ## Image
 
-![image](https://user-images.githubusercontent.com/71519918/108015969-0eb00300-6fd7-11eb-8a65-c36954d37c33.png)
+![image](https://user-images.githubusercontent.com/71519918/108134536-fa721180-707b-11eb-8de2-2cf960b26a64.png)
 
 ## Website
 
