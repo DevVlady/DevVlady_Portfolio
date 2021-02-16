@@ -4,18 +4,16 @@ const path = require('path');
 
 const PORT = process.env.PORT || 3000;
 
-// const publicPath = path.join(__dirname, 'public');
+const publicPath = path.join(__dirname, './public');
 
-// app.use(express.static('public'));
-
-app.use(express.static(path.join(__dirname, 'build')));
+app.use(express.static(publicPath));
 
 //Root route
 app.get('*', (req, res) => {
-    res.sendFile(path.join(__dirname, 'build', 'index.html'));
+    res.sendFile(path.join(publicPath, './public/index.html'));
  });
 
 //Server active on PORT
 app.listen(PORT, () => {
-    console.log(`🌏 ==> API server now on PORT ${PORT}!`);
+    console.log(`Server 🌏 is up on PORT ${PORT}!`);
  });
