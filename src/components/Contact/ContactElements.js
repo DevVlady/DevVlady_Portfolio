@@ -60,7 +60,7 @@ export const Form = styled.form `
 
 export const FormH1 = styled.h1 `
     margin-bottom: 40px;
-    color: white;
+    color: rgb(222, 218, 218);
     font-size: 30px;
     font-weight: 400;
     text-align: center;
@@ -93,7 +93,7 @@ export const FormButton = styled.button `
     padding: 16px 0;
     border: none;
     border-radius: 4px;
-    color: white;
+    color: rgb(222, 218, 218);
     font-size: 20px;
     cursor: pointer;
 
@@ -107,5 +107,5 @@ export const FormButton = styled.button `
 export const SendIcon = styled(RiMailSendLine) `
     margin-left: 8px;
     font-size: 20px;
-    color: white;
+    color: rgb(222, 218, 218);
 `;

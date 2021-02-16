@@ -95,7 +95,7 @@ export const Button = styled(Link) `
     background: #010606;
     white-space: nowrap;
     padding: 5px 15px;
-    color: white;
+    color: rgb(222, 218, 218);
     font-size: 20px;
     outline: none;
     border: none;

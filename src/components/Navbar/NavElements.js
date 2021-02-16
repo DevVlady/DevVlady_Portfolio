@@ -78,22 +78,27 @@ export const NavItem = styled.li`
 `;
 
 export const NavLinks = styled(LinkS)`
-    color: #01bf71;
+    color: rgb(222, 218, 218);
+    background: #01bf71;
+    border-radius: 20px;
+    margin-top: 8px;
+    margin-left: 15px;
     display: flex;
     align-items: center;
     text-decoration: none;
-    padding: 0 1rem;
-    height: 100%;
+    padding: 10px;
+    height: 80%;
     cursor: pointer;
     font-weight: 900;
     text-transform: uppercase;
     font-size: 20px;
 
     &.active {
-        border-bottom: 5px solid #01bf71;
+        background: #0032FF;;
     }
 
     &:hover {
-        color: #0032FF;
+        background: #0032FF;
+        color: rgb(222, 218, 218);
     }
 `;
