@@ -61,7 +61,7 @@ export const HomeContent = styled.div `
 `;
 
 export const HomeH1 = styled.h1 `
-    color: #fff;
+    color: #01bf71;
     font-size: 48px;
     text-align: center;
 
@@ -75,8 +75,9 @@ export const HomeH1 = styled.h1 `
 `;
 
 export const HomeP = styled.p `
-    margin-top: 24px;
-    color: #fff;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    color: #01bf71;
     font-size: 24px;
     text-align: center;
     max-width: 600px;
