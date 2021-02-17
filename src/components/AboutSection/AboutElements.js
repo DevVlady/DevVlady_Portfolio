@@ -332,3 +332,13 @@ export const VSCode = styled(DiVisualstudio) `
         color: #0078d7;
     }
 `;
+
+export const Sass = styled(DiSass) `
+    height: 90px;
+    width: 100px;
+    color: rgb(222, 218, 218);
+
+    &:hover {
+        color: #b37399aa;
+    }
+`;
