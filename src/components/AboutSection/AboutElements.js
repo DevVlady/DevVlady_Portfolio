@@ -100,8 +100,8 @@ export const Heading = styled.h1 `
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#010606' : 'rgb(222, 218, 218)')};
 
-    @media screen and (max-width: 480px) {
-        font-size: 32px;
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
     }
 `;
 
@@ -113,6 +113,10 @@ export const Subtitle = styled.p `
     line-height: 24px;
     color: ${({darkText}) => (darkText ? 'rgb(222, 218, 218)' : '#010606')};
     font-style: italic;
+
+    @media screen and (max-width: 768px) {
+        font-size: 15px;
+    }
 `;
 
 export const ButtonWrap = styled.div `

@@ -2,13 +2,18 @@ import React, { useState } from 'react';
 import Video from '../../videos/video.mp4';
 import Picture from '../../images/headshot.jpg'
 import { HomeContainer, HomeBg, VideoBg, HomeContent, HomeH1, HomeP, HomeImg, HomeBtnWrapper, ArrowForward, ArrowDown } from './HomeElements'
-import { Button } from '../ButtonElements'
+import { Button } from '../ButtonElements';
+import Typing from 'react-typing-animation';
 
 const HomeSection = () => {
     const [hover, setHover] = useState(false)
 
     const onHover = () => {
         setHover(!hover)
+    }
+
+    const styled = {
+        color: 'rgb(222, 218, 218)'
     }
 
     return (
@@ -19,7 +24,22 @@ const HomeSection = () => {
             <HomeContent>
                 <HomeH1>Hello,</HomeH1>
                 <HomeH1>My name is Vladimir Dimitrov</HomeH1>
-                <HomeP>I'm a Full Stack Web Developer</HomeP>
+                <HomeP>
+                    <Typing speed={5}>
+                        <span>I'm a</span>
+                        <span style={styled}> Full Stack Web Developer</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={25} />
+                        <span style={styled}> Father</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={8} />
+                        <span style={styled}> Gym Enthusiast</span>
+                        <Typing.Delay ms={1000} />
+                        <Typing.Backspace count={15} />
+                        <span> Web Developer</span>
+                        <Typing.Delay ms={1000} />
+                    </Typing>
+                </HomeP>
                 <HomeImg src={Picture} type='image/jpg' />
                 <HomeBtnWrapper>
                     <Button
