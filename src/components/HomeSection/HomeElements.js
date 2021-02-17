@@ -82,7 +82,7 @@ export const HomeP = styled.p `
     margin-top: 15px;
     margin-bottom: 15px;
     color: #01bf71;
-    font-size: 24px;
+    font-size: 35px;
     text-align: center;
     max-width: 600px;
 

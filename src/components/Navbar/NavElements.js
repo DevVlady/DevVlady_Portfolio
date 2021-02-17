@@ -72,13 +72,13 @@ export const NavLinks = styled(LinkS)`
     color: #010606;
     background: #01bf71;
     border-radius: 20px;
-    margin-top: 8px;
-    margin-left: 15px;
+    margin-top: 18px;
+    margin-left: 5px;
     display: flex;
     align-items: center;
     text-decoration: none;
     padding: 10px;
-    height: 80%;
+    height: 50%;
     cursor: pointer;
     font-weight: 900;
     text-transform: uppercase;
