@@ -10,6 +10,7 @@ import {SiMysql} from 'react-icons/si';
 import {SiJson} from 'react-icons/si';
 import {SiWebpack} from 'react-icons/si';
 import {IoLogoNpm} from 'react-icons/io';
+import {SiHeroku} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
@@ -252,5 +253,15 @@ export const NPM = styled(IoLogoNpm) `
 
     &:hover {
         color: #CC3534;
+    }
+`;
+
+export const Heroku = styled(SiHeroku) `
+    height: 80px;
+    width: 100px;
+    color: rgb(222, 218, 218);
+
+    &:hover {
+        color: #6567a5;
     }
 `;
