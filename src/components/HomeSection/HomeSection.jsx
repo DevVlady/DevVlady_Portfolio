@@ -25,7 +25,7 @@ const HomeSection = () => {
                 <HomeH1>Hello,</HomeH1>
                 <HomeH1>My name is Vladimir Dimitrov</HomeH1>
                 <HomeP>
-                    <Typing speed={5}>
+                    <Typing>
                         <span>I'm a</span>
                         <span style={styled}> Full Stack Web Developer</span>
                         <Typing.Delay ms={1000} />
