@@ -19,33 +19,20 @@ const Footer = () => {
                                 <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                                 <a href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
                                 <a href="https://github.com/DevVlady">Github</a>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social</FooterLinkTitle>
                                 <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
                                 <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
                                 <a href="https://github.com/DevVlady">Github</a>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact</FooterLinkTitle>
                             <p>(763) 381-1383</p>
+                            <p>Minneapolis, MN 55331</p>
                             <p>dev.vlady14@gmail.com</p>
-                                <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
-                                <a href="https://github.com/DevVlady">Github</a>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                    {/* <FooterLinksWrapper>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Me</FooterLinkTitle>
-                                <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
-                                <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
-                                <a href="https://github.com/DevVlady">Github</a>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper> */}
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>

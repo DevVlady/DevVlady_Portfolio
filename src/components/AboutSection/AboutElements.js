@@ -156,7 +156,7 @@ export const IconsRow = styled.div `
 export const HTML5 = styled(AiFillHtml5) `
     height: 100px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #e34c26;
@@ -166,7 +166,7 @@ export const HTML5 = styled(AiFillHtml5) `
 export const CSS3 = styled(DiCss3) `
     height: 105px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #264de4;
@@ -176,7 +176,7 @@ export const CSS3 = styled(DiCss3) `
 export const JavaScript = styled(SiJavascript) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #f0db4f;
@@ -186,7 +186,7 @@ export const JavaScript = styled(SiJavascript) `
 export const NodeJS = styled(FaNodeJs) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #68a063;
@@ -196,7 +196,7 @@ export const NodeJS = styled(FaNodeJs) `
 export const JQ = styled(SiJquery) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #0769ad;
@@ -206,7 +206,7 @@ export const JQ = styled(SiJquery) `
 export const ReactJS = styled(SiReact) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #61DBFB;
@@ -216,7 +216,7 @@ export const ReactJS = styled(SiReact) `
 export const MongoDB = styled(SiMongodb) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #3FA037;
@@ -226,7 +226,7 @@ export const MongoDB = styled(SiMongodb) `
 export const MySQL = styled(SiMysql) `
     height: 120px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #00758F;
@@ -236,7 +236,7 @@ export const MySQL = styled(SiMysql) `
 export const JSON = styled(SiJson) `
     height: 100px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #226446;
@@ -246,7 +246,7 @@ export const JSON = styled(SiJson) `
 export const WebPack = styled(SiWebpack) `
     height: 110px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #8ed6fb;
@@ -256,7 +256,7 @@ export const WebPack = styled(SiWebpack) `
 export const NPM = styled(IoLogoNpm) `
     height: 120px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #CC3534;
@@ -266,7 +266,7 @@ export const NPM = styled(IoLogoNpm) `
 export const Heroku = styled(SiHeroku) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #6567a5;
@@ -276,7 +276,7 @@ export const Heroku = styled(SiHeroku) `
 export const BootStrap = styled(SiBootstrap) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #0275d8;
@@ -286,7 +286,7 @@ export const BootStrap = styled(SiBootstrap) `
 export const Bulma = styled(SiBulma) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #00d1b2;
@@ -296,7 +296,7 @@ export const Bulma = styled(SiBulma) `
 export const Postman = styled(SiPostman) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #ef5b25;
@@ -306,7 +306,7 @@ export const Postman = styled(SiPostman) `
 export const GitHub = styled(SiGithub) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #6e5494;
@@ -316,7 +316,7 @@ export const GitHub = styled(SiGithub) `
 export const FontAwesome = styled(SiFontawesome) `
     height: 80px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #228ae6;
@@ -326,7 +326,7 @@ export const FontAwesome = styled(SiFontawesome) `
 export const VSCode = styled(DiVisualstudio) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #0078d7;
@@ -336,7 +336,7 @@ export const VSCode = styled(DiVisualstudio) `
 export const Sass = styled(DiSass) `
     height: 90px;
     width: 100px;
-    color: rgb(222, 218, 218);
+    color: #010606;
 
     &:hover {
         color: #b37399aa;
