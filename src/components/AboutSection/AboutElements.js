@@ -11,6 +11,8 @@ import {SiJson} from 'react-icons/si';
 import {SiWebpack} from 'react-icons/si';
 import {IoLogoNpm} from 'react-icons/io';
 import {SiHeroku} from 'react-icons/si';
+import {SiBootstrap} from 'react-icons/si';
+
 
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
@@ -263,5 +265,15 @@ export const Heroku = styled(SiHeroku) `
 
     &:hover {
         color: #6567a5;
+    }
+`;
+
+export const BootStrap = styled(SiBootstrap) `
+    height: 80px;
+    width: 100px;
+    color: rgb(222, 218, 218);
+
+    &:hover {
+        color: #0275d8;
     }
 `;
