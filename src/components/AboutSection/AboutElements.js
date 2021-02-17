@@ -15,6 +15,7 @@ import {SiBootstrap} from 'react-icons/si';
 import {SiBulma} from 'react-icons/si';
 import {SiPostman} from 'react-icons/si';
 import {SiGithub} from 'react-icons/si';
+import {SiFontawesome} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
@@ -307,5 +308,15 @@ export const GitHub = styled(SiGithub) `
 
     &:hover {
         color: #6e5494;
+    }
+`;
+
+export const FontAwesome = styled(SiFontawesome) `
+    height: 80px;
+    width: 100px;
+    color: rgb(222, 218, 218);
+
+    &:hover {
+        color: #228ae6;
     }
 `;
