@@ -25,6 +25,7 @@ export const AboutContainer = styled.div `
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;
+        height: 100%;
     }
 `;
 
@@ -86,6 +87,10 @@ export const TopLine = styled.p `
     letter-spacing: 1.4px;
     text-transform: uppercase;
     margin-bottom: 20px;
+
+    @media screen and (max-width: 768px) {
+        font-size: 20px;
+    }
 `;
 
 export const Heading = styled.h1 `
@@ -126,6 +131,11 @@ export const Img = styled.img`
     border-radius: 25px;
     margin: 0 0 10px 0;
     padding-right: 0;
+
+    @media screen and (max-width: 768px) {
+        height: 350px;
+        width: 175px;
+    }
 `;
 
 export const IconHeading = styled.p `
