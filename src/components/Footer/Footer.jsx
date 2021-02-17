@@ -28,8 +28,16 @@ const Footer = () => {
                                 <a href="https://github.com/DevVlady">Github</a>
                                 <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
+                        <FooterLinkItems>
+                            <FooterLinkTitle>Contact</FooterLinkTitle>
+                            <p>(763) 445-9339</p>
+                            <p>dev.vlady14@gmail.com</p>
+                                <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
+                                <a href="https://github.com/DevVlady">Github</a>
+                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
+                        </FooterLinkItems>
                     </FooterLinksWrapper>
-                    <FooterLinksWrapper>
+                    {/* <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Me</FooterLinkTitle>
                                 <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
@@ -37,14 +45,7 @@ const Footer = () => {
                                 <a href="https://github.com/DevVlady">Github</a>
                                 <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                         </FooterLinkItems>
-                        <FooterLinkItems>
-                            <FooterLinkTitle>About Me</FooterLinkTitle>
-                                <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
-                                <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
-                                <a href="https://github.com/DevVlady">Github</a>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
-                        </FooterLinkItems>
-                    </FooterLinksWrapper>
+                    </FooterLinksWrapper> */}
                 </FooterLinksContainer>
                 <SocialMedia>
                     <SocialMediaWrap>

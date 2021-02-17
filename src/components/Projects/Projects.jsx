@@ -2,7 +2,7 @@ import React, {useState} from 'react';
 import Icon1 from '../../images/Progressive Budget.png';
 import Icon2 from '../../images/WorkPlanner.png';
 import Icon3 from '../../images/Fitness_Tracker.png';
-import Icon4 from '../../images/devHangout.jpg';
+import Icon4 from '../../images/DevHangout_Project.png';
 import Icon5 from '../../images/Charging Forward.png';
 import Icon6 from '../../images/Directory.png';
 import Icon7 from '../../images/Weather.png';
