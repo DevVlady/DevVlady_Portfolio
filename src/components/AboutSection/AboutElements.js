@@ -12,7 +12,7 @@ import {SiWebpack} from 'react-icons/si';
 import {IoLogoNpm} from 'react-icons/io';
 import {SiHeroku} from 'react-icons/si';
 import {SiBootstrap} from 'react-icons/si';
-
+import {SiBulma} from 'react-icons/si';
 
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
@@ -277,3 +277,14 @@ export const BootStrap = styled(SiBootstrap) `
         color: #0275d8;
     }
 `;
+
+export const Bulma = styled(SiBulma) `
+    height: 80px;
+    width: 100px;
+    color: rgb(222, 218, 218);
+
+    &:hover {
+        color: #00d1b2;
+    }
+`;
+
