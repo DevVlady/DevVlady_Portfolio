@@ -2,7 +2,7 @@ import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
 import FooterLogo from '../../images/VDLogoBG.png';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, } from './FooterElements';
-import {FaInstagram, FaLinkedin, FaGithub, FaAddressCard, FaPhoneVolume } from 'react-icons/fa';
+import {FaInstagram, FaLinkedin, FaGithub, FaMapPin, FaPhoneVolume } from 'react-icons/fa';
 import {MdEmail} from 'react-icons/md';
 
 const Footer = () => {
@@ -16,10 +16,9 @@ const Footer = () => {
                 <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
-                            <FooterLinkTitle>About</FooterLinkTitle>
+                            <FooterLinkTitle>Documents</FooterLinkTitle>
                                 <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
                                 <a href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
-                                <a href="https://github.com/DevVlady">Github</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social</FooterLinkTitle>
@@ -30,7 +29,7 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact</FooterLinkTitle>
                             <p><FaPhoneVolume /> (763) 381-1383</p>
-                            <p><FaAddressCard /> Minneapolis, MN 55331</p>
+                            <p><FaMapPin /> Minneapolis, MN 55331</p>
                             <p><MdEmail /> dev.vlady14@gmail.com</p>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
