@@ -2,7 +2,8 @@ import React from 'react';
 import {animateScroll as scroll} from 'react-scroll';
 import FooterLogo from '../../images/VDLogoBG.png';
 import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink, } from './FooterElements';
-import {FaInstagram, FaLinkedin, FaGithub} from 'react-icons/fa';
+import {FaInstagram, FaLinkedin, FaGithub, FaAddressCard, FaPhoneVolume } from 'react-icons/fa';
+import {MdEmail} from 'react-icons/md';
 
 const Footer = () => {
     const toggleHome = () => {
@@ -28,9 +29,9 @@ const Footer = () => {
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact</FooterLinkTitle>
-                            <p>(763) 381-1383</p>
-                            <p>Minneapolis, MN 55331</p>
-                            <p>dev.vlady14@gmail.com</p>
+                            <p><FaPhoneVolume /> (763) 381-1383</p>
+                            <p><FaAddressCard /> Minneapolis, MN 55331</p>
+                            <p><MdEmail /> dev.vlady14@gmail.com</p>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
