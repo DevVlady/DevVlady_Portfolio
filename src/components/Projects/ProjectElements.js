@@ -11,12 +11,9 @@ export const ProjectContainer = styled.div `
     overflow: hidden;
     position: relative;
 
-    @media screen and (max-width: 768px) {
+    @media screen and (max-width: 468px) {
         height: 100%;
-    }
-
-    @media screen and (max-width: 480px) {
-        height: 1300px;
+        padding-top: 80px;
     }
 `;
 
