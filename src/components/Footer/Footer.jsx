@@ -30,7 +30,7 @@ const Footer = () => {
                             <FooterLinkTitle>Contact</FooterLinkTitle>
                             <p><FaPhoneVolume /> (763) 381-1383</p>
                             <p><FaMapPin /> Minneapolis, MN 55427</p>
-                            <p><MdEmail /> vladimir@devvlady.com</p>
+                            <p><MdEmail /> vladimir@dev-vlady.com</p>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
                 </FooterLinksContainer>
