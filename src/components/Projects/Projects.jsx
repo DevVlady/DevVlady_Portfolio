@@ -119,55 +119,6 @@ const Projects = () => {
                         >Demo</Button>
                     </BtnWrap>
                 </ProjectCard>
-                <ProjectCard>
-                    <ProjectIcon src={Icon7}/>
-                    <ProjectH2>Weather Dashboard</ProjectH2>
-                    <BtnWrap>
-                        <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/Weather_Dashboard'}
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}
-                            spy={true}
-                            // offset={-80}
-                        >Github</Button>
-                        <Button
-                            onClick={event => window.location.href='https://devvlady.github.io/Weather_Dashboard/'}
-                        >Demo</Button>
-                    </BtnWrap>
-                </ProjectCard>
-                <ProjectCard>
-                    <ProjectIcon src={Icon8}/>
-                    <ProjectH2>Password Generator</ProjectH2>
-                    <BtnWrap>
-                        <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/PasswordGenerator'}
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}
-                            spy={true}
-                            // offset={-80}
-                        >Github</Button>
-                        <Button
-                            onClick={event => window.location.href='https://devvlady.github.io/PasswordGenerator/'}
-                        >Demo</Button>
-                    </BtnWrap>
-                </ProjectCard>
-                <ProjectCard>
-                    <ProjectIcon src={Icon9}/>
-                    <ProjectH2>Notepad</ProjectH2>
-                    <BtnWrap>
-                        <Button
-                            onClick={event => window.location.href='https://github.com/DevVlady/Note_Taker'}
-                            onMouseEnter={onHover}
-                            onMouseLeave={onHover}
-                            spy={true}
-                            // offset={-80}
-                        >Github</Button>
-                        <Button
-                            onClick={event => window.location.href='https://note-pad-vd.herokuapp.com/'}
-                        >Demo</Button>
-                    </BtnWrap>
-                </ProjectCard>
-
             </ProjectWrapper>
         </ProjectContainer>
     )
