@@ -8,6 +8,10 @@ import {DiVisualstudio, DiSass, DiCss3} from 'react-icons/di';
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
     background: ${({lightBg}) => (lightBg ? '#2c3e50' : '#010606')};
+    // z-index: 1;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 
     @media screen and (max-width: 768px) {
         padding: 100px 0;

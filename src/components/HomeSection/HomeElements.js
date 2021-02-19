@@ -6,10 +6,12 @@ export const HomeContainer = styled.div `
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 0 30px;
-    height: 1220px;
+    // padding: 0 30px;
+    // z-index: 1;
+    height: 100vh;
+    overflow: hidden;
     position: relative;
-    z-index: 1;
+
 
     :before {
         content: '';
@@ -22,9 +24,10 @@ export const HomeContainer = styled.div `
         z-index: 2;
     }
 
-    // @media screen and (max-width: 480px) {
-    //     width: 100%;
-    // }
+    @media screen and (max-width: 468px) {
+        padding-top: 402px;
+        width: 100%;
+    }
 `;
 
 export const HomeBg = styled.div `

@@ -2,11 +2,13 @@ import styled from 'styled-components';
 import { RiMailSendLine } from 'react-icons/ri';
 
 export const ContactContainer = styled.div `
-    height: 1160px;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     background: #2c3e50;
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
 
     @media screen and (max-width: 768px) {
         height: 1500px;
