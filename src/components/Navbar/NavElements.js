@@ -34,6 +34,19 @@ export const NavIcon = styled.img `
     height: 80px;
     display: inline;
     float: center;
+
+    @media screen and (max-width: 468px) {
+        height: 40px;
+        width: 40px;
+        margin-top: 25px;
+    }
+
+    @media screen and (max-width: 768px) {
+        height: 60px;
+        width: 60px;
+        margin-top: 20px;
+    }
+
 `;
 
 export const MobileIcon = styled.div`
