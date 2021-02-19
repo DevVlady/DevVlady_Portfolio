@@ -21,4 +21,9 @@ export const Button = styled(Link) `
         background: ${({primary}) => (primary ? '#0032FF' : '#01BF71')};
         color: ${({dark}) => (dark ? 'rgb(222, 218, 218)' : '#010606')};
     };
+
+    @media screen and (max-width: 468px) {
+        font-size: 10px;
+    }
+
 `;

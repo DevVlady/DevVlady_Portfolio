@@ -44,7 +44,7 @@ export const NavIcon = styled.img `
     @media screen and (max-width: 768px) {
         height: 60px;
         width: 60px;
-        margin-top: 20px;
+        margin-top: 15px;
     }
 
 `;

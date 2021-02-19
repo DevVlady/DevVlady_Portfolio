@@ -13,20 +13,25 @@ export const AboutContainer = styled.div `
     overflow: hidden;
     position: relative;
 
+    @media screen and (max-width: 468px) {
+        height: 100vh;
+        // padding-top: 20px;
+    }
+
     @media screen and (max-width: 768px) {
-        padding: 100px 0;
-        height: 100%;
+        height: 100vh;
     }
 `;
 
 export const ProgContainer = styled.div `
     color: rgb(222, 218, 218);
 
-    @media screen and (max-width: 768px) {
-        padding: 100px 0;
+    @media screen and (max-width: 468px) {
+        grid-template-columns: 1fr 1fr;
+        // padding: 0 20px;
     }
-`;
 
+`;
 
 export const AboutWrapper = styled.div `
     display: grid;
@@ -38,6 +43,12 @@ export const AboutWrapper = styled.div `
     margin-left: auto;
     padding: 0 24px;
     justify-content: center;
+
+    @media screen and (max-width: 768px) {
+        justify-content: flex-start;
+        // padding: 30px 20px;
+        margin-top: 50px;
+    }
 `;
 
 export const AboutRow = styled.div `
@@ -80,6 +91,7 @@ export const TopLine = styled.p `
 
     @media screen and (max-width: 768px) {
         font-size: 20px;
+        // margin-top: 35px;
     }
 `;
 
@@ -90,8 +102,9 @@ export const Heading = styled.h1 `
     font-weight: 600;
     color: ${({ lightText }) => (lightText ? '#010606' : 'rgb(222, 218, 218)')};
 
-    @media screen and (max-width: 768px) {
-        font-size: 20px;
+    @media screen and (max-width: 468px) {
+        font-size: 15px;
+        padding-right: 250px;
     }
 `;
 
@@ -100,18 +113,24 @@ export const Subtitle = styled.p `
     margin-top: 35px;
     margin-bottom: 35px;
     font-size: 28px;
-    line-height: 24px;
+    line-height: 20px;
     color: ${({darkText}) => (darkText ? 'rgb(222, 218, 218)' : '#010606')};
     font-style: italic;
 
-    @media screen and (max-width: 768px) {
-        font-size: 15px;
+    @media screen and (max-width: 468px) {
+        font-size: 10px;
+        padding-right: 250px;
+        margin-top: -15px;
     }
 `;
 
 export const ButtonWrap = styled.div `
     display: flex;
     justify-content: flex-start;
+
+    @media screen and (max-width: 468px) {
+        margin-top: -20px;
+    }
 `;
 
 export const ImgWrap = styled.div `
@@ -126,9 +145,8 @@ export const Img = styled.img`
     margin: 0 0 10px 0;
     padding-right: 0;
 
-    @media screen and (max-width: 768px) {
-        height: 350px;
-        width: 175px;
+    @media screen and (max-width: 468px) {
+        display: none;
     }
 `;
 
@@ -152,8 +170,8 @@ export const IconsRow = styled.div `
 
     grid-template-areas: ${({ imgStart }) => imgStart ? `'col2 col1'` : `'col1 col2'`};
 
-    @media screen and (max-width: 768px) {
-        grid-template-areas: ${({ imgStart }) => imgStart ? `'col1' 'col2'` : `'col1 col1' 'col2 col2'`};
+    @media screen and (max-width: 468px) {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     }
 `;
 
@@ -165,6 +183,11 @@ export const HTML5 = styled(AiFillHtml5) `
     &:hover {
         color: #e34c26;
     }
+
+    @media screen and (max-width: 468px) {
+        height: 50px;
+        width: 50px;
+    }
 `;
 
 export const CSS3 = styled(DiCss3) `
@@ -174,6 +197,11 @@ export const CSS3 = styled(DiCss3) `
 
     &:hover {
         color: #264de4;
+    }
+
+    @media screen and (max-width: 468px) {
+        height: 50px;
+        width: 50px;
     }
 `;
 
@@ -185,6 +213,11 @@ export const JavaScript = styled(SiJavascript) `
     &:hover {
         color: #f0db4f;
     }
+
+    @media screen and (max-width: 468px) {
+        height: 50px;
+        width: 50px;
+    }
 `;
 
 export const NodeJS = styled(FaNodeJs) `
@@ -194,6 +227,11 @@ export const NodeJS = styled(FaNodeJs) `
 
     &:hover {
         color: #68a063;
+    }
+
+    @media screen and (max-width: 468px) {
+        height: 50px;
+        width: 50px;
     }
 `;
 
