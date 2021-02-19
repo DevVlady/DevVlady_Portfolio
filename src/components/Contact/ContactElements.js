@@ -77,6 +77,7 @@ export const FormLabel = styled.label `
     margin-bottom: 8px;
     font-size: 14px;
     color: rgb(222, 218, 218);
+    font-size: 20px;
 `;
 
 export const FormInput = styled.input `
@@ -84,15 +85,15 @@ export const FormInput = styled.input `
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
+    font-size: 20px;
 `;
-export const FormInputMsg = styled.input `
-    padding: 56px 16px;
+export const FormInputMsg = styled.textarea `
+    height: 150px;
+    padding: 5px;
     margin-bottom: 32px;
     border: none;
     border-radius: 4px;
-    // word-wrap: break-word;
-    // word-break: break-all;
-    // overflow-wrap: wrap;
+    font-size: 20px;
 `;
 
 export const FormButton = styled.button `
