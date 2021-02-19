@@ -21,7 +21,7 @@ const Contact = () => {
                     <FormContent>
                         <Form className="contact-form" onSubmit={sendEmail}>
                             <FormH1>Contact Me</FormH1>
-                            <FormP>Have a question, would like to look over my portfolio, or simply connect with me via social media? Either way, I can't wait to hear from you. vladimir@devvlady.com</FormP>
+                            <FormP>Have a question, would like to look over my portfolio, or simply connect with me via social media? Either way, I can't wait to hear from you.</FormP>
                             <FormLabel htmlFor='for'>First & Last Name</FormLabel>
                             <FormInput type="text" name="user_name" required />
                             <FormLabel htmlFor='for'>Email</FormLabel>
