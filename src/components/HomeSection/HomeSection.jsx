@@ -30,9 +30,9 @@ const HomeSection = () => {
                         <span style={styled}> Full Stack Web Developer</span>
                         <Typing.Delay ms={1000} />
                         <Typing.Backspace count={25} />
-                        <span style={styled}> Father</span>
+                        {/* <span style={styled}> Father</span>
                         <Typing.Delay ms={1000} />
-                        <Typing.Backspace count={8} />
+                        <Typing.Backspace count={8} /> */}
                         <span style={styled}> Gym Enthusiast</span>
                         <Typing.Delay ms={1000} />
                         <Typing.Backspace count={15} />
