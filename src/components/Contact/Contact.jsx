@@ -1,6 +1,5 @@
 import React from 'react';
 import emailjs from 'emailjs-com';
-// import{ init } from 'emailjs-com';
 import { ContactContainer, FormWrap, FormContent, Form, FormH1, FormP, FormLabel, FormInput, FormInputMsg, FormButton, SendIcon } from './ContactElements';
 
 const Contact = () => {

@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { FaBars } from 'react-icons/fa';
 import { IconContext } from 'react-icons/lib';
 import Icon from '../../images/VDLogoBG.png';
-// import { animateScroll } from 'react-scroll';
 import {animateScroll as scroll} from 'react-scroll'
 import { Nav, NavbarContainer, MobileIcon, NavMenu, NavItem, NavLinks, NavIcon } from './NavElements';
 
