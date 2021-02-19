@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css",
-    "main.js": "/DevVlady_Portfolio/static/js/main.eeb7c8fe.chunk.js",
-    "main.js.map": "/DevVlady_Portfolio/static/js/main.eeb7c8fe.chunk.js.map",
+    "main.js": "/DevVlady_Portfolio/static/js/main.b6ae2d6d.chunk.js",
+    "main.js.map": "/DevVlady_Portfolio/static/js/main.b6ae2d6d.chunk.js.map",
     "runtime-main.js": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js",
     "runtime-main.js.map": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js.map",
-    "static/js/2.2591f8fd.chunk.js": "/DevVlady_Portfolio/static/js/2.2591f8fd.chunk.js",
-    "static/js/2.2591f8fd.chunk.js.map": "/DevVlady_Portfolio/static/js/2.2591f8fd.chunk.js.map",
+    "static/js/2.bab4b927.chunk.js": "/DevVlady_Portfolio/static/js/2.bab4b927.chunk.js",
+    "static/js/2.bab4b927.chunk.js.map": "/DevVlady_Portfolio/static/js/2.bab4b927.chunk.js.map",
     "index.html": "/DevVlady_Portfolio/index.html",
     "static/css/main.891739ba.chunk.css.map": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css.map",
-    "static/js/2.2591f8fd.chunk.js.LICENSE.txt": "/DevVlady_Portfolio/static/js/2.2591f8fd.chunk.js.LICENSE.txt",
+    "static/js/2.bab4b927.chunk.js.LICENSE.txt": "/DevVlady_Portfolio/static/js/2.bab4b927.chunk.js.LICENSE.txt",
     "static/media/Charging Forward.92fc32bf.png": "/DevVlady_Portfolio/static/media/Charging Forward.92fc32bf.png",
     "static/media/DevHangout_Project.15afd727.png": "/DevVlady_Portfolio/static/media/DevHangout_Project.15afd727.png",
     "static/media/Directory.c557af07.png": "/DevVlady_Portfolio/static/media/Directory.c557af07.png",
@@ -23,8 +23,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.9f513927.js",
-    "static/js/2.2591f8fd.chunk.js",
+    "static/js/2.bab4b927.chunk.js",
     "static/css/main.891739ba.chunk.css",
-    "static/js/main.eeb7c8fe.chunk.js"
+    "static/js/main.b6ae2d6d.chunk.js"
   ]
 }
