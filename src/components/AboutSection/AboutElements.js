@@ -1,23 +1,9 @@
 import styled from 'styled-components';
 import {AiFillHtml5} from 'react-icons/ai';
-import {DiCss3} from 'react-icons/di';
-import {SiJavascript} from 'react-icons/si';
 import {FaNodeJs} from 'react-icons/fa';
-import {SiJquery} from 'react-icons/si';
-import {SiReact} from 'react-icons/si';
-import {SiMongodb} from 'react-icons/si';
-import {SiMysql} from 'react-icons/si';
-import {SiJson} from 'react-icons/si';
-import {SiWebpack} from 'react-icons/si';
 import {IoLogoNpm} from 'react-icons/io';
-import {SiHeroku} from 'react-icons/si';
-import {SiBootstrap} from 'react-icons/si';
-import {SiBulma} from 'react-icons/si';
-import {SiPostman} from 'react-icons/si';
-import {SiGithub} from 'react-icons/si';
-import {SiFontawesome} from 'react-icons/si';
-import {DiVisualstudio} from 'react-icons/di';
-import {DiSass} from 'react-icons/di';
+import {SiBulma, SiPostman, SiGithub, SiFontawesome, SiBootstrap, SiHeroku, SiWebpack, SiJavascript, SiJson, SiMysql, SiMongodb, SiReact, SiJquery} from 'react-icons/si';
+import {DiVisualstudio, DiSass, DiCss3} from 'react-icons/di';
 
 export const AboutContainer = styled.div `
     color: rgb(222, 218, 218);
