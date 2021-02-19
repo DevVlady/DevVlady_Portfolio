@@ -107,3 +107,27 @@ export const Button = styled(Link) `
         color: #01BF71;
     };
 `;
+
+export const MoreBtn = styled(Link) `
+    border-radius: 50px;
+    background: #01BF71;
+    white-space: nowrap;
+    padding: 5px 15px;
+    color: #010606;
+    font-size: 20px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.2s ease-in-out;
+    margin: 3px;
+    margin-top: 45px;
+
+    &:hover {
+        transition: all 0.2s ease-in-out;
+        background: #0032FF;
+        color: rgb(222, 218, 218);
+    };
+`;

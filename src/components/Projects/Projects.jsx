@@ -5,7 +5,7 @@ import Icon3 from '../../images/Fitness_Tracker.png';
 import Icon4 from '../../images/DevHangout_Project.png';
 import Icon5 from '../../images/Charging Forward.png';
 import Icon6 from '../../images/Directory.png';
-import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button } from './ProjectElements';
+import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button, MoreBtn } from './ProjectElements';
 
 
 const Projects = () => {
@@ -113,10 +113,17 @@ const Projects = () => {
                         >Github</Button>
                         <Button
                             onClick={event => window.location.href='https://devvlady.github.io/User-Directory/'}
+                            onMouseEnter={onHover}
+                            onMouseLeave={onHover}
+                            spy={true}
                         >Demo</Button>
                     </BtnWrap>
                 </ProjectCard>
             </ProjectWrapper>
+            <BtnWrap>
+                <MoreBtn onClick={event => window.location.href='https://github.com/DevVlady'}
+                >View More</MoreBtn>
+            </BtnWrap>
         </ProjectContainer>
     )
 }
