@@ -54,6 +54,11 @@ export const HomeImg = styled.img `
     height: 350px;
     display: inline;
     float: center;
+
+    @media screen and (max-width: 468px) {
+        height: 150px;
+        width: 150px;
+    }
 `;
 
 export const HomeContent = styled.div `
