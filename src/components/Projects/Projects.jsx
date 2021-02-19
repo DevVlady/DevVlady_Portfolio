@@ -5,9 +5,6 @@ import Icon3 from '../../images/Fitness_Tracker.png';
 import Icon4 from '../../images/DevHangout_Project.png';
 import Icon5 from '../../images/Charging Forward.png';
 import Icon6 from '../../images/Directory.png';
-import Icon7 from '../../images/Weather.png';
-import Icon8 from '../../images/Password_Gen.png';
-import Icon9 from '../../images/Note_Taker.png';
 import { ProjectContainer, ProjectH1, ProjectWrapper, ProjectCard, ProjectIcon, ProjectH2, BtnWrap, Button } from './ProjectElements';
 
 
