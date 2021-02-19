@@ -85,7 +85,8 @@ export const NavLinks = styled(LinkS)`
     font-size: 20px;
 
     &.active {
-        border-bottom: 5px solid #0032FF;
+        background: #0032FF;
+        color: rgb(222, 218, 218);
     }
 
     &:hover {
