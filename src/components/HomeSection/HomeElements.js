@@ -25,8 +25,7 @@ export const HomeContainer = styled.div `
     }
 
     @media screen and (max-width: 468px) {
-        padding-top: 402px;
-        width: 100%;
+        height: 100vh;
     }
 `;
 
