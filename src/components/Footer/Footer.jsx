@@ -11,7 +11,7 @@ const Footer = () => {
     }
 
     const styled = {
-        fontSize: '20px',
+        fontSize: '16px',
         color: 'rgb(222, 218, 218)',
         textDecoration: 'none'
     }
@@ -24,13 +24,13 @@ const Footer = () => {
                         <FooterLinkItems>
                             <FooterLinkTitle>Documents</FooterLinkTitle>
                                 <a style={styled} href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20Resume.pdf.pdf">Resume</a>
-                                <a href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
+                                <a style={styled} href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Social</FooterLinkTitle>
-                                <a href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
-                                <a href="https://www.instagram.com/dev_vlady/">Instagram</a>
-                                <a href="https://github.com/DevVlady">Github</a>
+                                <a style={styled} href="https://www.linkedin.com/in/vladimirsdimitrov/">LinkedIn</a>
+                                <a style={styled} href="https://www.instagram.com/dev_vlady/">Instagram</a>
+                                <a style={styled} href="https://github.com/DevVlady">Github</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
                             <FooterLinkTitle>Contact</FooterLinkTitle>
