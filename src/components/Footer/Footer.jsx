@@ -10,6 +10,12 @@ const Footer = () => {
         scroll.scrollToTop()
     }
 
+    const styled = {
+        fontSize: '20px',
+        color: 'rgb(222, 218, 218)',
+        textDecoration: 'none'
+    }
+
     return (
         <FooterContainer>
             <FooterWrap>
@@ -17,7 +23,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Documents</FooterLinkTitle>
-                                <a href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20%7C%20Web%20Developer.pdf">Resume</a>
+                                <a style={styled} href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20Resume.pdf.pdf">Resume</a>
                                 <a href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
