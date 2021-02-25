@@ -13,7 +13,7 @@ const Footer = () => {
     const styled = {
         fontSize: '16px',
         color: 'rgb(222, 218, 218)',
-        textDecoration: 'none'
+        textDecoration: 'none',
     }
 
     return (
