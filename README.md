@@ -32,7 +32,7 @@ This project is licensed under the MIT license
 
 ## Website
 
-Deploy Link: https://devvlady.github.io/DevVlady_Portfolio/
+Deploy Link: https://dev-vlady.com/
 
 ## Installation
 
