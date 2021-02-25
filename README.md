@@ -4,7 +4,7 @@
 
 ## Description
 
-This is a professional portfolio website used to display all new and past projects I have created with my coding knowledge obtained from attending Rutgers Full Stack Web Development coding Boot camp. In addition this portfolio offers information about me along with ways for others who are interested in connecting with me and follow my progress.
+This is a professional portfolio website used to display all new and past projects I have created with my coding knowledge obtained from attending Rutgers Full Stack Web Development coding Boot camp. In addition this portfolio offers information about me along with ways for others who are interested in connecting with me and follow my progress. 
 
 ## Table of Contents
 
