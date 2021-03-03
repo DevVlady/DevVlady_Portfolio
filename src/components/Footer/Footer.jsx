@@ -23,7 +23,7 @@ const Footer = () => {
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>Documents</FooterLinkTitle>
-                                <a style={styled} href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrov%20Resume.pdf.pdf">Resume</a>
+                                <a style={styled} href="https://github.com/DevVlady/VDimitrovs_Resume/raw/main/Vladimir%20Dimitrovs%20Resume.pdf">Resume</a>
                                 <a style={styled} href="https://github.com/DevVlady/Dev_Certificate/raw/main/Rutgers%20Letter%20%7C%20Certificate.pdf">Certificate</a>
                         </FooterLinkItems>
                         <FooterLinkItems>
