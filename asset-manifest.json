@@ -1,30 +1,30 @@
 {
   "files": {
-    "main.css": "/static/css/main.891739ba.chunk.css",
-    "main.js": "/static/js/main.75129b9f.chunk.js",
-    "main.js.map": "/static/js/main.75129b9f.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.5cc75963.js",
-    "runtime-main.js.map": "/static/js/runtime-main.5cc75963.js.map",
-    "static/js/2.0284de58.chunk.js": "/static/js/2.0284de58.chunk.js",
-    "static/js/2.0284de58.chunk.js.map": "/static/js/2.0284de58.chunk.js.map",
-    "index.html": "/index.html",
-    "static/css/main.891739ba.chunk.css.map": "/static/css/main.891739ba.chunk.css.map",
-    "static/js/2.0284de58.chunk.js.LICENSE.txt": "/static/js/2.0284de58.chunk.js.LICENSE.txt",
-    "static/media/Charging Forward.92fc32bf.png": "/static/media/Charging Forward.92fc32bf.png",
-    "static/media/DevHangout_Project.15afd727.png": "/static/media/DevHangout_Project.15afd727.png",
-    "static/media/Directory.c557af07.png": "/static/media/Directory.c557af07.png",
-    "static/media/Fitness_Tracker.afec1e0b.png": "/static/media/Fitness_Tracker.afec1e0b.png",
-    "static/media/Progressive Budget.4203afe4.png": "/static/media/Progressive Budget.4203afe4.png",
-    "static/media/VDLogoBG.7e7c82e9.png": "/static/media/VDLogoBG.7e7c82e9.png",
-    "static/media/WorkPlanner.0645a609.png": "/static/media/WorkPlanner.0645a609.png",
-    "static/media/businessPhoto.570c5df6.jpg": "/static/media/businessPhoto.570c5df6.jpg",
-    "static/media/headshot.93b46a4f.jpg": "/static/media/headshot.93b46a4f.jpg",
-    "static/media/video.d28831bc.mp4": "/static/media/video.d28831bc.mp4"
+    "main.css": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css",
+    "main.js": "/DevVlady_Portfolio/static/js/main.8fdf3981.chunk.js",
+    "main.js.map": "/DevVlady_Portfolio/static/js/main.8fdf3981.chunk.js.map",
+    "runtime-main.js": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js",
+    "runtime-main.js.map": "/DevVlady_Portfolio/static/js/runtime-main.9f513927.js.map",
+    "static/js/2.1e27a708.chunk.js": "/DevVlady_Portfolio/static/js/2.1e27a708.chunk.js",
+    "static/js/2.1e27a708.chunk.js.map": "/DevVlady_Portfolio/static/js/2.1e27a708.chunk.js.map",
+    "index.html": "/DevVlady_Portfolio/index.html",
+    "static/css/main.891739ba.chunk.css.map": "/DevVlady_Portfolio/static/css/main.891739ba.chunk.css.map",
+    "static/js/2.1e27a708.chunk.js.LICENSE.txt": "/DevVlady_Portfolio/static/js/2.1e27a708.chunk.js.LICENSE.txt",
+    "static/media/Charging Forward.92fc32bf.png": "/DevVlady_Portfolio/static/media/Charging Forward.92fc32bf.png",
+    "static/media/DevHangout_Project.15afd727.png": "/DevVlady_Portfolio/static/media/DevHangout_Project.15afd727.png",
+    "static/media/Directory.c557af07.png": "/DevVlady_Portfolio/static/media/Directory.c557af07.png",
+    "static/media/Fitness_Tracker.afec1e0b.png": "/DevVlady_Portfolio/static/media/Fitness_Tracker.afec1e0b.png",
+    "static/media/Progressive Budget.4203afe4.png": "/DevVlady_Portfolio/static/media/Progressive Budget.4203afe4.png",
+    "static/media/VDLogoBG.7e7c82e9.png": "/DevVlady_Portfolio/static/media/VDLogoBG.7e7c82e9.png",
+    "static/media/WorkPlanner.0645a609.png": "/DevVlady_Portfolio/static/media/WorkPlanner.0645a609.png",
+    "static/media/businessPhoto.570c5df6.jpg": "/DevVlady_Portfolio/static/media/businessPhoto.570c5df6.jpg",
+    "static/media/headshot.93b46a4f.jpg": "/DevVlady_Portfolio/static/media/headshot.93b46a4f.jpg",
+    "static/media/video.d28831bc.mp4": "/DevVlady_Portfolio/static/media/video.d28831bc.mp4"
   },
   "entrypoints": [
-    "static/js/runtime-main.5cc75963.js",
-    "static/js/2.0284de58.chunk.js",
+    "static/js/runtime-main.9f513927.js",
+    "static/js/2.1e27a708.chunk.js",
     "static/css/main.891739ba.chunk.css",
-    "static/js/main.75129b9f.chunk.js"
+    "static/js/main.8fdf3981.chunk.js"
   ]
 }
