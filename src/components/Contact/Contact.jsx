@@ -1,14 +1,25 @@
-import React from 'react';
+import React, { useState } from 'react';
 import emailjs from 'emailjs-com';
 import { ContactContainer, FormWrap, FormContent, Form, FormH1, FormP, FormLabel, FormInput, FormInputMsg, FormButton, SendIcon } from './ContactElements';
+import { useHistory } from 'react-router-dom';
 
 const Contact = () => {
+    // Used to alert user message is sending
+    const [isPending, setIsPending] = useState(false);
+    // Used for page routing
+    const history = useHistory();
+
     function sendEmail(e) {
         e.preventDefault();
+
+        setIsPending(true);
 
         emailjs.sendForm('contact_service', 'contact_form', e.target, 'user_0b8w00fd3suFAUWpKXPNW')
             .then((result) => {
                 console.log(result.text);
+                setIsPending(false);
+                // This will make the user go back one page
+                history.go('');
             }, (error) => {
                 console.log(error.text);
             });
@@ -27,8 +38,10 @@ const Contact = () => {
                             <FormInput type="email" name="user_email" required />
                             <FormLabel htmlFor='for'>Message</FormLabel>
                             <FormInputMsg type='message' name="message" required />
-                            <FormButton type='submit' value="Send">Send Message <SendIcon />
-                            </FormButton>
+                            {!isPending && <FormButton type='submit' value="Send">Send Message <SendIcon />
+                            </FormButton>}
+                            {isPending && <FormButton type='submit' value="Send">Sending... <SendIcon />
+                            </FormButton>}
                         </Form>
                     </FormContent>
                 </FormWrap>

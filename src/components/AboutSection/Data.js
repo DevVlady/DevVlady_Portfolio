@@ -9,7 +9,7 @@ export const homeObjectOne = {
     buttonLabel: 'View My Work',
     imgStart: true,
     // img: require('../../images/svg-1.svg'),
-    alt: 'Dev Hangout',
+    alt: '',
     dark: true,
     primary: true,
     darkText: true
